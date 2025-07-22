@@ -1,0 +1,980 @@
+FUNDAMENTALS OF COMPUTER OF COMPUTER FUNDAMENTALS OF COMPUTER Unit First Generation Second Generation ird Generation Fourth Generation Fifth Generation A computer is an electronic data processing machine or device that performs processes, calculations and operations based on instructions provided by a program. Computers are now used vastly in every field of life. The advancement in computer caused advancement in knowledge, science and technology. Today, computers are used in fields of business, industry, education, banking, transportation, research, explorations, media, entertainment , etc. The computers which we see today are modern shape of computers which have been evolved since centuries. The evolution of computers is generally divided in following three eras. (i) Mechanical Era (Dark Age) Men have been trying to invent machines that can solve mathematical problems. In mechanical era, human became successful to make simple machines that could help performing simple arithmetic operation, in other words computing. These machines were manually operated since the electricity was not invented. Some of the important machines of this era are: (a) Abacus (3000 B.C.) Abacus was invented about 5000 years ago. It is also known as counting frame. Abacus is still used to teach basic arithmetic operations to the students. Abacus is considered as first computer prototype. Ÿ Demonstrate the understanding about the history of computers Ÿ Outline the various generations of computers Ÿ Classify the computers as per their size and technology used to date SLOs Abacus
+
+(b) Napier's Bones (1612 A.D.) S c o t t i s h m a t h e m a t i c i a n J o h n N a p i e r developed Napier's Bones, in 1612.It is also called Napier's Rods. It was a small machine that contained ten rods. The rods were made up of bones, wood or metal. Napier's Bones was used for multiplication and division. (c) Slide Rule (1622 A.D.) English mathematician William Oughtred invented a Slide Rule. This was basically a pair of two moveable rules p l a c e d s i d e b y s i d e . T h e y h a d a standardized set of markings called scales. These scales were used for mathematical computations. Slide Rule was used to multiply and divide numbers. The modern slide rules are still used in some countries. (d) Pascaline or Pascal's Calculator (1642 A.D.) French mathematician Blaise Pascal invented a mechanical calculator which was called Pascaline. He developed this machine to help his father who was a tax collector. Pascaline can perform addition and subtraction by eight figures. User had to adjust wheels in order to perform these calculations. (e) Leibniz's Calculator (1694 A.D.) Leibniz's Calculator was developed by the German mathematician Gottfried Wilhelm Leibniz. It was also called stepped reckoner. It was the first calculator that could perform all four basic arithmetic operations; addition, subtraction, multiplication and division. Napier’s Bones Slide Rule Pascaline Leibniz Calculator
+
+(f) Babbage's Difference and Analytical Engines (1822 and 1837 A.D.) Charles Babbage was an English mathematician and mechanical engineer. He is known as Father of Computer because he developed the first complete computing machine. His first invention was Difference Engine. It was an automatic mechanical calculator. Difference Engine was a large machine, made of metal and was powered by steam. The Difference Engine had storage (mechanical memory) that could hold the data temporarily for processing and to store results. It was used to allow a user to enter calculations and get printed results. The Difference Engine worked on difference equations. Then, Charles Babbage designed but could not build a very big machine in 1837. This was named Analytical Engine. The proposed design included an ALU with basic programmatic flow control. It was programmed using punched cards and contained integrated memory. Historians consider it to be the first design concept of a general-purpose computer because of its comprehensive design. (ii) Electro-Mechanical Era (Middle Age) This era starts from the mid of 19 century. In this era scientists became able to develop faster and more accurate computing machines as they were powered by steam and electricity. One of such machines was Tabulating Machine. Babbage’s Difference Engine Babbage’s Analytical Engine
+
+(a) Herman Hollerith's Tabulating Machine (1890 A.D.) It was invented by American inventor Herman Hollerith in 1890.Hollerith's first tabulator was used for the U.S. 1890 Census. Because of Hollerith's tabulating machine census data took only six months to compile, which was very fast as compared to previous U.S. census in 1880 which took 7 years to be completed. Hollerith Tabulating Machine became very famous and used in many offices of U.S. Government. (iii) Electronic Era (Modern Age) The advancement in the vacuum or electron tube gave birth to the electronic era. In this era the true computers were invented which worked on the principle of input, store, process and output. Continuous advancement in electronic engineering increased efficiency and speed of computers considerably. The electronic era may be categorized in generations on the basis of core technology used to build computers. (a) First Generation of Computers (1940 to1956) Based on vacuum tubes, first generation computers were very large in size. This generation computers used machine language (i.e. 1's and 0's).Magnetic drums were used as primary internal storage medium and punched cards for input. In this generation mainly batch processing operating system was used. Computers of this generation were primarily used for scientific and research purposes. Electronic Numerical Integrator and Calculator (ENIAC), Universal Automatic Computer (UNIVAC) are e x a m p l e s o f f i r s t g e n e r a t i o n computers. Tabulating Machine Vacuum Tubes
+
+(b) Second Generation of Computers (1956 to 1963) Because of transistors computers became smaller, faster, cheaper and more efficient. Assembly language and a high-level language FORTRAN were introduced. Magnetic core was used as primary internal storage medium. Punched Cards were used for input. Batch processing and Multiprogramming Operating systems were used. These computers were mainly used for commercial productions, scientific and engineering analysis and design. Examples are IBM 7094 and IBM 1401. (c) Third Generation of Computers (1964 to 1971) Use of ICs further decreased size of computers and increased the speed a n d e f f i c i e n c y . L e s s e x p e n s i v e computers were introduced. High level programming languages such as Pascal and COBOL were used. Keyboard as input and monitor as output also eased the use of computer. Time-sharing and Realtime Operating Systems were used. The use of computers was extended to database management and automatic industrial control. IBM 360 and IBM 370 are the examples of this generation's computers. (d) Fourth Generation of Computers (1971 to Present) The invention of microprocessors was revolutionary which caused the development of faster, less expensive, smaller and more reliable computers. They used semi-conductor memories RAM and ROM and magnetic storage became popular. More high-level languages were introduced like C, C++, Java, etc. These computers are used in almost every field of life, like space applications, business and art work. Transistors Integrated Circuits (ICs) Microprocessors
+
+Time sharing, real time and distributed operating system are used. This generation also saw the development of Graphical User Interfaces (GUIs). Examples are Apple Macintosh, IBM PC. (e) Fifth Generation of Computers (Present and Beyond) Fifth Generation computing devices are still being developed. In this generation computers will be capable of self- learning, reasoning and generalization. These computers or controlled machines like robot will also be able to process human languages. The branches of AI include; Machine Learning, Deep Learning. Natural Language Processing, Robotics and Expert Systems. Classification Of Computers Computers can be classified into different ways as shown below: Special Purpose General Purpose Micro Computer Mini Computer Mainframe Computer Super Computer Hybrid Digital Analog Technology/ Type of Data Handled Size Purpose Classification of Computers Humanoid Robot
+
+(i) According to Technology According to technology or type of data they handle, computers are classified into three types. (a) Analog Computers Analog Computers are used to process analog data. Analog data are in the form of continuously varying physical quantities like pressure, temperature, voltage, speed and weight. Examples of Analog computer are speedometer of a car, voltmeter etc. (b) Digital Computers Digital Computers are most commonly used type of computers. They are used to process information with quantities using the binary number system (0's and 1's). Digital Computers are used in home, educational institutes, offices, business, scientific fields, etc. (c) Hybrid Computers Hybrid Computers are the combination of Analog and Digital Computer system. These computers combine analog and digital features of computers in a single machine. A Hybrid Computer uses analog to digital and digital to analog conversion. It may input or output either digital or analog data. (ii) According to Size Computers are also divided into four groups according to their size. (a) Super Computers Super Computers are the most powerful, fastest and largest computers. They are extremely expensive. These computers are widely Analog Computer Digital Computer VA Meter
+
+used in scientific applications such as aerodynamics, design simulations, processing of geological data, weather forecasting and nuclear research. (b) Mainframe Mainframe Computers are powerful multi-user and multi- processors computers. They can process huge amount of calculations at very high speed. Mainframes are also very expensive and require a lot of technical expertise to be installed and operated. They are used in banks and many large business organizations where several users work simultaneously. (c) Minicomputer These are smaller than mainframe computers, but they are more powerful than Microcomputers. Minicomputers usually use multi-user operating system. Multiple users can use the Minicomputers through terminals. Minicomputers may be used as network servers and Internet servers. DEC VAX and IBM AS/400 are good examples of minicomputers. (d) Microcomputers Microcomputers are also called Personal Computers (PCs). The use of microprocessor has made computers cheaper yet faster and more reliable. These are the smallest computers designed to be used by individuals. PCs can be used for variety of tasks like documentation, calculations, illustration and entertainment. The power of network and internet has also made it more useful. Now computers are also used for communication and socialization. (iii) According to Purpose According to purpose, computers are either general purpose or special purpose. (a) General Purpose Computers Most computers in use today are General Purpose Computers. These computers can process variety of tasks. These computers can store and execute different programs in their memory. Therefore, various tasks like word processing (typing & editing), payrolls, accounts, inventory
+
+control, manipulating facts in a database, making scientific calculations and statistical data analysis, and controlling security system of an organizations are achieved by these computers. Desktops, laptops, tablets and smart phones are examples of General Purpose Computers. (b) Special Purpose Computers As the name states, Special Purpose Computers are designed to perform specific tasks. Special Purpose Computers repeatedly perform single job more efficiently. They are also known as Dedicated Computers. These computers are useful in traffic lights control system, navigational system, aviation, weather forecasting, satellite tracking and ATMs. ROLE OF COMPUTER The role of computer in our lives is increasing day by day. In this section, we will discuss different aspects of the changing role of computer. Computers In Different Fields Of Life We are living today in the information era and the information has become one of the most valuable assets. To process this information, we make use of computers in various fields in our daily life. Computers have been integrated in our life in different shapes and sizes like desktops, laptops, mobile phones, gaming consoles and smart devices. Our lives have become so dependent of computers that we cannot work even a single day without the help of it. We have automated many of the repetitive tasks with the help of more advanced, faster and accurate computers and Ÿ Explain the uses of computers in different fields of life. Ÿ Discuss how computer is affecting our lifestyle by providing variety of choices for entertainment and day to day tasks. Ÿ Tell about scope of the different careers in IT sector. SLOs General Purpose Computer Computerized Wheel Alignment Machine
+
+brought our routine tasks, office works, businesses, researches and industrial applications to a new level. Computers are largely used in every field of life. Manufacturing, ecommerce, education, medical, banking, communication, entertainment, e n g i n e e r i n g , a g r i c u l t u r e , architecture, business, defense, and sports are highly influenced by computers. Computers Today and Tomorrow 21st century is the era of technological revolution. Previously, technology was only used to access and share information. However, with the passage of time, the rapid change in technology has made it nearly impossible to perform any human activity without its use. Computers are playing an important part in our daily life. News, weather updates, travelling information and bookings, money transfer and even taxi bookings are done with the help of mobile phone apps. Many managerial tasks are also done by computer software. School, library and hospital management are some examples. Online shopping is becoming a trend in our society too. Computers are also providing variety of choices for entertainment like online games in which players from different parts of the world can participate simultaneously. 3D graphical software has given a new look to movies in which different comic characters can act with human actors. Photo, sound and video editor software not only help artists and singers to produce extraordinary creations but also inexperienced people can enjoy their productivity with ease of use. The emerging technologies are also getting better day by day and we can imagine that how computer will be used in future. Artificial Intelligence, Robotics, Wireless Communication and Virtual Realities are some areas which are shaping the modern world. Radiology computer
+
+Artificial Intelligence is based on simulating human intelligence in machines that can easily mimic and execute tasks from simple to more complex operations. The term A.I. may also be referred to any machine that displays qualities associated with a human brain such as learning, reasoning and problem solving. A.I. is also used for Machine Learning. It learns from our daily routines and suggests us different options. Like google maps suggest the best ways for our daily commute. A.I. is vastly used in scientific experiment, healthcare and space technologies. Robots are the machines that can be controlled by a computer and are capable of carrying out a complex series of actions automatically. Robots can be controlled by an external control device or through programming. Robotics deals with designing, creating and programming of the robot and enhancing it by taking sensory feedback and processing information. Robots are commonly used in manufacturing, industry, science, medicine and education. Wireless Communication has become an integral part of our lives. Wireless communication technology transmits information using electromagnetic waves like IR (Infrared), RF (Radio Frequency), satellite, etc. Global Positioning System (GPS) is now used to find real time location of people and objects. Smart phones that include 3G, 4G and 5G networks have transformed the conventional use of telephones. These phones not only provide better coverage but also fast mobile internet experience. Wireless communication is also giving new meaning to the socialization and human interactivity. Virtual Reality is an artificial environment that is created with software and presented to the user in a way that the user feels it as a real environment. Virtual reality can be used for the simulation of a real environment for training and education. It is also used for development of an imagined environment for a game or interactive story. It is very important to orient students about the contemporary and upcoming technologies. Teachers may show videos on smartphone or projectors for better understanding of students, in this regard. Teacher Note
+
+Careers In IT Field Today Computer Science plays a key role in all fields of life. Computer Science (CS) jobs are ranked as having some of the highest salaries in the world. It's no surprise that Computer Science and Information Technology (IT) are changing tomorrow's job market. Let's look at different careers that are present in the IT sector. (i) Software Engineer A Software Engineer is a person who uses different programming languages to develop software products like games, Learning Management System (LMS), business applications, educational and entertainment software. (ii) Network Administrator Network Administrator is an IT expert who manages an organization’s network. He or She is responsible for installing, maintaining and upgrading any software or hardware required to efficiently run a computer network. (iii) Database Administrator A Database Administrator (also known as DBA) is a skilled professional who maintains a secure database environment in an office, business or organization. (iv) Web Designer Web is short for World Wide Web or www. This is another name for internet. Web designers are people who build websites. They prepare a site's content with eye-catching designs, attractive images and strong text. They rely on many web designing tools to ensure an interactive website. How the site works and how it looks is the responsibility of web designers. They are also responsible for maintaining and updating an existing site. (v) Graphic Designer Graphic is another word for image. Graphics Designers develop overall layouts of brochures, magazines and other types of published
+
+advertisements and documents. They do this by using various computer graphics software. This task is usually accomplished by combining art and technology, conveying ideas through images, layout of websites and printed matter. (vi) Information Security Analyst These people protect networks. They plan and carry out security measures to ensure that no loss of data (or information) occurs. We can call them the police force of the internet. Computer technology has expanded into online banking and businesses. Computer hackers are always on the lookout for customer account details that they can use to steal money. Information Security Analysts ensure that no such theft occurs. (vii) Computer Science or IT Teacher Another very rewarding career for Computer Science graduates and post-graduates is teaching in schools, colleges and universities. These instructors instill in their students the importance of computers in today's world, and the impact these machines will have in their later lives. COMPUTER HARDWARE Computers consist of software and hardware. Software is the programs and applications that run on computer. Hardware is the physical parts of the computer that run programs and applications. Hardware can be seen and touched while software cannot. Computer hardware is a collection of all the physical parts or components of a computer. It includes the computer casing, the CPU or Central Processing Unit, computer memory, VGA graphics card, sound card, and the motherboard. SLOs Ÿ Describe computer hardware Ÿ Explain the function of different parts of system unit like: Motherboard, Processor Ÿ Differentiate between various input devices Ÿ Recognize different output devices Ÿ Differentiate between Primary and Secondary memory Ÿ Classify different hardware devices as per their functionality
+
+System Unit A System Unit is the part of a computer that contains the primary devices. The system unit performs operations and produces results for complex calculations. It includes the motherboard, CPU, RAM and other components, as well as the case in which these devices are enclosed. (i) Motherboard The motherboard is the main board which connects different parts of computer. It includes the following general components: Microprocessor (CPU), Slots, Ports, Buses, RAM, ROM and other electronic components for example resistors, capacitors, diodes, transistors, jumpers etc. Just like nervous system it allows communication between all parts of the computer. We can find CPU, memory slots, expansion slots and a number of chipsets on motherboard. Motherboards are made of layered fiberglass. These layers contain copper lines that form the circuitry by which electrical signals are provided to all parts of computer. Various components of computer may be attached, detached and upgraded on motherboard according to need of the user. Motherboards also have connectors called ports. These ports are used to connect input, output and other peripheral devices. Motherboard Uncover the casing of computer and demonstrate different parts on and attached with motherboard. Ask students to write names and functions of the components. Teacher Note
+
+(ii) Microprocessor (CPU) CPU or microprocessor is the brain of computer. The m i c r o p r o c e s s o r i s a c h i p c o n t a i n i n g m i l l i o n s o f t i n y transistors. These transistors manipulate data. Microprocessor performs all the calculations necessary to make the computer work. These calculations are performed at very high speed and accuracy. Microprocessor is made up of silicon. The microprocessor fetches, decodes, executes and stores all the instructions given by the user or any other device. The speed of computer mainly depends upon the speed of microprocessor. A microprocessor that has faster clock speed (measured in GHz) and more cores and cache works faster. There are typically five components of a microprocessor. (a) Arithmetic Logic Unit (ALU) ALU performs all the actual calculations like arithmetic operations and logical comparisons. Arithmetic operations include addition, subtraction, multiplication and division while logical comparisons include comparing, selecting and matching of data. (b) Control Unit (CU) Control Unit is responsible for controlling the transfer of data and instructions among other units of a computer. This unit controls the operations of all parts of the computer but does not carry out any actual data processing operations. CU functions just like a traffic policeman. It manages and coordinates all the units of the computer. (c) Clock Clock generates pulses and instructions are executed on the basis of pulses. Clock speed is measure in MHz and GHz. Microprocessor
+
+(d) Registers It is a temporary storage area that holds the data that is being processed. It is also known as programming model which may be of 8 bits, 16 bits, 32 bits or 64 bits. (e) Cache Cache is an intermediate storage area, which is available inside microprocessor. The immediate processed information is stored in cache. The cache inside the microprocessor is called internal cache and outside is called external cache. (iii) Buses In computer, Buses are the electric paths on which data is sent and received by different components. They are just like roads. As roads connect different places, buses connect all the parts of the computer to each other. They also connect all internal components on the motherboard. There are three types of buses; control bus, data bus and address bus. Control Bus carries command between different components to control all activities in a computer. Data Bus carries data between the processor, memory unit and other components. Address Bus carries the address of the data (but not the data).The address bus is used to specify memory location to be used by microprocess for specific operaation. Input Devices Input devices are used to enter data into computers. These devices can be categorized into Text Entering, Pointing and Image Scanning Devices. (i) Text Entering Devices Keyboard: It is the most common text entering device and used to enter data usually in text format or to perform other controlling functions.
+
+When a key is pressed, keyboard controller chip sends its corresponding code in keyboard buffer called scan code, which is then processed by CPU. (ii) Pointing Devices (Mouse and its variants) They are used for the quick movement of cursor on screen needed usually in graphic mode. It includes mouse, joy stick, track ball and track pad. (iii) Image Scanners Scanners convert image into electronic format understandable by computers through light sensing. They also work on Optical Recognition which occurs when a device scans a clear printed surface and translates the image into machine-readable formats that a computer understands. Image scanners include Optical Mark Recognition (OMR), Optical Barcode Reader (OBR) and Optical Character Recognition (OCR). (iv) Other Types of Input devices There are also other input devices. For example, microphones are used to accept sound input and convert it in digital audio format. Microphones are also used for voice recognition which can convert voice input into text files. Touch Screen is also used for input. It accepts input directly on monitor by touching finger or any object on the screen. Magnetic Ink Character Character Recognition (MICR) and Magnetic Strip Reader are also used for input. Output Devices A hardware device that sends data from a computer (CPU) to another device or user is called an output device. The most common output devices of a computer are monitor and printer. There are two types of output devices. (i) Soft Copy Output Devices It is screen display or voice output. It is volatile output and lost when other output is shown or computer is turned off. Following are some of the devices used to give output in soft form.
+
+(a) Monitors It is TV like device that displays data by small bright dots called pixels. Monitors are of two types. Ÿ Cathode Ray Tube (CRT) Ÿ Flat Panel Display (FDP) (b) Data Projectors Data projectors are used to show colorful slides and images directly from computer disk on a wall or large screen through an optical lens. They are also called digital light projectors and video projectors. (c) Speakers Speakers give output in form of sound. They are good for people with visual disabilities or where display is not easy. (ii) Hard Copy Output Devices It is output on paper. It is nonvolatile output that is relatively stable and permanent form. Hard Copy Output Devices are: (a) Printers They usually give output on paper and can print both text and graphics. There are two types of printers: Ÿ Impact Ÿ Non-Impact (b) Plotters Like printer it gives images on paper but typically used to print large format images such as maps, construction drawing, advertising hoardings etc. Storage Devices A storage device refers to a hardware used to store information. There are two types of storage devices; Primary and Secondary.
+
+(i) Primary Storage Devices Primary storage devices are used by computer during processing. They are quite smaller in storage capacity. Most primary storage devices are found inside the computer, and they have the fastest access to data. Primary devices include RAM and ROM. ROM is the Read Only Memory. It is permanent memory. ROM is quite small in capacity. It stores the major setting of computer permanently. RAM is Random Access Memory. RAM is volatile, means it loses its content as the power supply is disconnected. This is used to store data and instructions temporarily. (ii) Secondary Storage Devices Secondary storage devices have a larger storage capacity and can store data permanently. Users save their data on secondary storage devices. Hard Disk, CD and DVD, SD Card and USB flash disk are the examples of secondary storage devices. BASIC OPERATIONS OF A COMPUTER A computer is a machine that acts according to the instructions given by the user. A computer performs four basic operations: input, processing, output and storage. (i) Input Computer input has many forms. It can be from a command entered using a keyboard or a mouse. It can be data sent from another computer on a network. (ii) Processing Processing is done inside the computer by CPU. Processing is the conversion of input into output. After processing, data is turned into meaningful information. This is carried out with the help of arithmetic and logical operations. Ÿ Understand the basic operations of computer Ÿ Differentiate among the four basic operations of computer Ÿ Draw the block diagram of computer's basic operations SLOs
+
+(iii) Storage Storage refers to the holding or saving data. RAM, ROM and Hard Disk are the devices that are used for storage. (iv) Output Output is the result of a computer processing. Output may be viewed on a monitor screen, heard through speakers or printed on paper. Here, monitor screen, speakers and printer are called output devices. COMPUTER SOFTWARE Software is a set of instructions that a computer uses to perform a task. It is a general term for a computer program. There are two main types of software; System Software and Application Software. System Software System software is a computer program that coordinates all activities and functions of a computer. It also controls all the operations of the computer hardware. It includes operating systems, device drivers, utility programs and language translators. (i) Operating System Operating system is the master control program that manages all the system resources. It creates an interface between computer system and user. Windows and Linux are commonly used operating systems. (ii) Device Drivers Device drivers are computer programs that control a particular device when it is connected to a computer. Any hardware that we have in our computer must have a device driver to communicate with operating Ÿ Develop the understanding about computer software Ÿ Recognize various types of system software Ÿ List out the names of different application software Ÿ Differentiate between application software and system software SLOs
+
+system. A device driver is a translator between the operating system and the hardware device. For many devices, operating system has drivers pre- installed in them. This gave rise to the concept of Plug and Play, where the device would be attached to the computer and the operating system will instantly recognize it. A non-plug-and-play device would require you to go through several steps of installing drivers and setting up the device before it would work. (iii) Utility Programs Utility means being useful. Utility programs are useful computer programs that help to manage, maintain and control computer resources. Operating systems usually have pre-installed programs that can serve the purpose, but utility software provides further functionality. One example of utility program is an antivirus software. This computer program helps to protect a computer from viruses and other harmful files. Hard Disk tools are also part of utility programs. They manage hard disk drives and other storage devices. This includes utilities to scan the hard disks for any potential problems. Disk cleaner utility is used to remove any unnecessary files while disk defragmenter is used to re- organize file on a hard disk drive to increase performance of disk. (iv) Language Translators Language Translators are used to translate human readable instructions into machine language. Computer can only understand machine language which is composed of 0's and 1's. The computer languages are used to make computer programs (software). Generally, software is written in high-level languages, using natural language words. Language translator are of three types; assembler, compiler and interpreter. Teachers are suggested to demonstrate how to configure/ install device drivers and use utility programs like Disk Defragmenter, Disk Cleaner etc. Teacher Note
+
+(a) Assembler: The assembler translates the program written in assembly language into machine language instructions for execution. (b) Compiler: It translates the entire high-level language program at once into machine language before it is executed. (c) Interpreter: It translates the high-level language program line by line into machine language. Application Software Application Software is used to complete specific tasks, such as creating documents, databases, spreadsheets and presentations. Computer games, media players and web browsers are also the examples of application software. User needs to install application software to accomplish specific tasks. Application software are not pre-installed on operating system. They are installed separately. For example, making spreadsheet is not possible with Windows. For that application software such as MS Excel is used. There are different types of application software. (i) Productivity Software This kind of application software is used to produce things such as documents, spreadsheets, databases and presentations. Many of the productivity software are intended to be used in businesses and offices. MS Office for Windows is an example of productivity software. (ii) Business Software Business Software are used to manage business activities efficiently. It is used to provide many business functions such as billing, database management and inventory management. (iii) Entertainment Software This type of software provides amusement and fulfills a user's hobby. The most common entertainment software are video games. (iv) Educational Software Educational software is used for teaching and learning. This kind of software is used in many schools to enhance knowledge of students in learning different subjects.
+
+MCQs
+
+Here are 30 important MCQs generated from the content of "01_Fundamentals_of_Computer.txt":
+
+## Chapter 01: Fundamentals of Computer - MCQs
+
+1.  A computer is primarily an electronic device that processes information based on instructions provided by a:
+    a) Manual guide
+    b) Program
+    c) Human operator
+    d) Mechanical switch
+
+2.  The invention of Abacus dates back approximately:
+    a) 1000 years ago
+    b) 3000 years ago
+    c) 5000 years ago
+    d) 7000 years ago
+
+3.  Which machine is considered the "first computer prototype"?
+    a) Pascaline
+    b) Napier's Bones
+    c) Abacus
+    d) Difference Engine
+
+4.  Blaise Pascal, a French mathematician, invented a calculating machine called:
+    a) Stepped Reckoner
+    b) Analytical Engine
+    c) Pascaline
+    d) Arithmometer
+
+5.  The first general-purpose calculating machine, designed by Charles Babbage, was the:
+    a) Difference Engine
+    b) Analytical Engine
+    c) Tabulating Machine
+    d) Mark I
+
+6.  Who is known as the "Father of Computer" for conceiving the Analytical Engine?
+    a) John Napier
+    b) Blaise Pascal
+    c) Charles Babbage
+    d) Herman Hollerith
+
+7.  The first generation of computers primarily used what technology for their circuitry?
+    a) Transistors
+    b) Integrated Circuits
+    c) Vacuum Tubes
+    d) Microprocessors
+
+8.  Which characteristic defines First Generation computers?
+    a) Small size and low power consumption
+    b) Use of machine language for programming
+    c) High-level programming languages
+    d) Use of keyboards and monitors
+
+9.  Second Generation computers replaced vacuum tubes with:
+    a) Integrated Circuits
+    b) Transistors
+    c) Microprocessors
+    d) VLSI technology
+
+10. What was a significant advantage of Second Generation computers over First Generation?
+    a) Larger physical size
+    b) Higher heat generation
+    c) Faster processing and smaller size
+    d) Reliance on machine language
+
+11. The Third Generation of computers is characterized by the use of:
+    a) Vacuum Tubes
+    b) Transistors
+    c) Integrated Circuits (ICs)
+    d) Very Large Scale Integration (VLSI)
+
+12. The invention of the microprocessor is a hallmark of which computer generation?
+    a) First Generation
+    b) Second Generation
+    c) Third Generation
+    d) Fourth Generation
+
+13. Fourth Generation computers utilize:
+    a) Small Scale Integration
+    b) Medium Scale Integration
+    c) Large Scale Integration (LSI)
+    d) Very Large Scale Integration (VLSI)
+
+14. The development of artificial intelligence and expert systems is associated with which generation?
+    a) Third Generation
+    b) Fourth Generation
+    c) Fifth Generation
+    d) Second Generation
+
+15. What type of software manages basic tasks like file management, memory management, and process management?
+    a) Application Software
+    b) Utility Software
+    c) System Software
+    d) Entertainment Software
+
+16. Which of the following is NOT a type of System Software?
+    a) Operating System
+    b) Device Driver
+    c) Language Processor
+    d) MS Excel
+
+17. Software that acts as an interface between the user and the computer hardware is known as:
+    a) Productivity Software
+    b) Operating System
+    c) Entertainment Software
+    d) Educational Software
+
+18. What is the primary function of a Device Driver?
+    a) To browse the internet
+    b) To manage the hardware devices connected to the computer
+    c) To create documents
+    d) To play games
+
+19. A compiler is an example of a:
+    a) Utility Software
+    b) Operating System
+    c) Language Processor
+    d) Application Software
+
+20. Which of these translates a high-level language program line by line into machine language?
+    a) Compiler
+    b) Assembler
+    c) Interpreter
+    d) Device Driver
+
+21. Application Software is used to complete:
+    a) Basic computer operations
+    b) Specific tasks
+    c) Hardware diagnostics
+    d) Operating system updates
+
+22. MS Office for Windows is an example of what type of application software?
+    a) Business Software
+    b) Entertainment Software
+    c) Productivity Software
+    d) Educational Software
+
+23. Software used for teaching and learning purposes is categorized as:
+    a) Business Software
+    b) Entertainment Software
+    c) Productivity Software
+    d) Educational Software
+
+24. What is raw facts and figures that are unprocessed called?
+    a) Information
+    b) Output
+    c) Data
+    d) Program
+
+25. A computer is an electronic data **processing** machine. This means it performs processes, calculations, and:
+    a) Displays images
+    b) Operations
+    c) Prints documents
+    d) Sends emails
+
+26. Which era of computer evolution saw the development of manually operated machines for simple arithmetic?
+    a) Electronic Era
+    b) Mechanical Era
+    c) Digital Era
+    d) Modern Era
+
+27. The concept of storing both instructions and data in memory was introduced by:
+    a) Charles Babbage
+    b) John von Neumann
+    c) Blaise Pascal
+    d) Herman Hollerith
+
+28. Integrated Circuits (ICs) are also commonly known as:
+    a) Transistors
+    b) Microchips
+    c) Vacuum Tubes
+    d) Resistors
+
+29. An Assembler is used to translate which language into machine language?
+    a) High-level language
+    b) Assembly language
+    c) Natural language
+    d) Binary language
+
+30. Which type of application software is used to manage business activities efficiently, like billing and inventory?
+    a) Productivity Software
+    b) Entertainment Software
+    c) Business Software
+    d) Educational Software
+
+Respond the following:
+1. Discuss the use of computer in any two fields of life.
+Ans: Use Of Computer In Different Fields Of life
+1. EDUCATIONAL FIELD:
+Role of computers in education has been given a lot of importance in the recent years. Computer technology eases the process of learning. 
+Many programs are available for students to learn the subjects of Physics, Mathematics, Chemistry, Biology, etc.
+Multimedia software makes the process of learning interactive and interesting. It combines text, graphics, sound and video for effective learning.
+ Internet has enormous information on a wide variety of subjects. Students can refer to Internet to find information on any topic.
+Nowadays computers with multimedia projectors are being used in classrooms for effective teaching.
+All the activities related to examinations are also being controlled using computers. Therefore, computer plays an important role in education.
+Today, computer education is a part of curricula from elementary to university level.
+
+2. ENTERTAINMENT FIELD:
+Computers are also providing variety of choices for entertainment like:
+(a) Games:
+online games in which players from different parts of the world can participate simultaneously.
+(b) Movies:
+3D graphical software has given a new look to movies in which different comic characters can act with human actors in cartoon movies.
+Animated films bring a big change in movies industries.
+Photo, sound and video editor software not only help artists and singers to produce extraordinary creations but also inexperienced people can enjoy their productivity with ease of use.
+(c) Music:
+Different software are developed to compose and listen music e.g Media player .
+(d) Drawings and Paintings:
+Paint Brush (R.I.P in 2017), Photoshop and other graphic software are used in making drawings and paintings.
+
+3. MEDICAL FIELD:
+(a) Hospitals:
+Computers help in keeping records of all the patients in a hospital.
+Computers help doctors in controlling operation theatre machines.
+Computers help in doing a number of medical tests.
+(b) Medicine:
+Computer technology is radically changing the tools of medicine.
+All medical information can now be digitized. Software is now able to computer the risk of a disease.
+
+4. DEFENCE:
+Controlling UAV or unmanned air-crafts an example is Predator.
+They are also used on Intercontinental Ballistic Missiles (ICBMs) that use GPS and Computers to help the missile get to the target.
+Computers are used to track incoming missiles and help slew weapons systems onto the incoming target to destroy them.
+Computers are used in helping the military find out where all their assets are (Situational Awareness) and in Communications / Battle Management Systems.
+Computers are used in the logistic and ordering functions of getting equipment to and around the battlefield.
+Computers are used in tanks and planes and ships to target enemy forces, help run the platform and more recently to help diagnose any problems with the platforms
+
+5. BUSINESS
+Computers are used in all types of businesses, to improve productivity. They help in running business activities efficiently.
+They are used to prepare business documents, reports, charts, presentations, invoices, etc.
+They help in staying in contact with employees and customers.
+Important business areas where computers are used:
+The following are some important business areas where computers are used
+Banking:
+Computer technology has revolutionized the banking business.Deposits and withdrawals are instantly logged into a customer's account.
+Accurate monthly bank statements are generated with the help of computer. Computer networks allow amount of bill to be transferred from customer's bank account to the store.
+ Automated Teller Machine (ATM):
+People can obtain cash any time anywhere through Automated Teller Machine (ATM).
+Bar code readers:
+Computers are used in retail stores.
+Bar code readers are linked to computer system that are used to read the bar code printed on each product sold to prepare the bill.
+With the use of computers at retail stores, the checkout process is faster and the bill produced is accurate.
+Electronic commerce/E-Commerce:
+Electronic commerce, also known as. e-commerce allows to sell products and services by means of computer networks such as Internet.
+Managerial Task:
+Computers are very helpful in running many other types of businesses that include hotel, hospital, school. travel agency, real estate, stock exchange. etc.
+
+6. Media:
+Computers have lot of applications in print and electronic media.c Print media refers to mass communication through printed material.
+Computer technology helps in preparation and production of newspapers, magazines. booklets and brochures, flyers, press releases and books.
+Electronic media refers to broadcast media that includes radio broadcast, cable and satellite television broadcast and the new-age media like Internet and mobile devices.
+
+7. Manufacturing Industry:
+Now a days, computer technology is widely used in manufacturing industry.
+It has improved the accuracy, quality and speed of manufacturing.
+Computers are used for product design and automation of manufacturing process in factories. This is known as Computer-Aided Design (CAD) and Computer-Aided Manufacturing (CAM).
+Computer-Aided Design (CAD): CAD involves the use of computer hardware and graphics software to create product designs.
+Computer-Aided Manufacturing (CAM): CAM involves the use of computer in planning and management of production operation. It helps in automatically producing finished products.
+CAD/CAM technology has been applied in many industries, including automobile. electronics. machine components. textiles, fashion, etc.
+
+OR
+
+1. Discuss the use of computer in any two fields of life.(By Sir Atif Ali Minhas)
+Ans: Computers are now used vastly in every field of life. The advancement in computer caused advancement in knowledge, science and technology. Today, computers are used in fields of business, industry, education, banking, transportation, research, explorations, media, entertainment, etc.
+
+Use of Computers in Education:
+Computer technology has had a deep impact on the education .Because of computers, education has become easier and much more interesting than before.
+The main uses of computer in education are as follows:
+Computer teaching plays a key role in the modem education system. Students find it easier to refer to the Internet than searching for information in fat books. The process of learning has gone beyond learning from prescribed textbooks. Internet is a much larger and easier-to-access storehouse of information.
+When it comes to storing retrieved information, it is easier done on computers than maintaining hand-written notes.
+Computer technology has made the dream of distance learning, a reality. Education is no longer limited to classrooms. It has reached far and wide.
+Computers facilitate effective presentation of information. Computers facilitate audio-visual representation of information, thus making the process of learning interactive and interesting. Computer-aided teaching adds a fun element to education.
+The Internet can be used to refer to information on different subjects. Both teachers and students benefit from the Internet.
+Teachers can refer to it for additional information and references on the topics to be taught.
+Computers enable storage of data in the electronic format, thereby saving paper. Memory capacities of computer storage devices enable them to store huge chunks of data.
+
+Use of Computers in Medical Sector:
+Computers are the excellent means for storage of patient related data. Big hospitals employ computer systems to maintain patient records. It is often necessary to maintain detailed records of the medical history of patients. Doctors often require the information about a patient's family history, physical ailments, already diagnosed diseases and prescribed medicines.
+Medical journals, research and diagnosis papers, important medical documents and reference books can best be stored in an electronic format.
+Many of the modern-day medical equipment have small, programmed computers. Many of the medical appliances of today work on pre-programmed instructions. The circuitry and logic in most of the medical equipment is basically a computer.
+Computer software is used for diagnosis of diseases. It can be used for the examination of Internal organs of the body. Advanced computer-based systems are used to examine delicate organs of the body. Some of the complex surgeries can be performed with the aid of computers. The different types of monitoring equipment in hospitals are often based on computer programming.
+Medical imaging is a vast field that deals with the techniques to create images of the human body for medical purposes. Many of the modem methods of scanning and imaging are largely based on the computer technology. Magnetic resonance imaging and tomography employs computer software.
+In the field of medicine, computers, allow for faster communication between a patient and a doctor. Doctors can collaborate better over the Internet. Today, it is possible to obtain experts' opinions within seconds by means of the Internet.
+Medical practitioners can discuss medical issues in medical forums. They can exchange images and messages in seconds and derive conclusions speedily. They can seek advice and share knowledge in a convenient manner over the Internet. The importance of computers cannot be stressed enough as computer technology has revolutionized the field of medicine.
+
+2. Differentiate Compiler and Assembler.
+Ans: Compiler and Assembler are language translator which are used to make a program executable. Both have different methods to translate the code into machine level.
+Difference between Compiler and Assembler
+S.No	Compiler	Assembler
+1.	 Translate high level code into a machine language	 Translate low level code into a machine code
+2.	 Translate the whole code into machine at the same time	 It checks each instruction and converts into machine code
+3.	 There are seven phases for translation.	 There are only two phases for machine code
+4.	 The translation is according to version of machine	 The output is in Binary (0, 1) format
+5.	 It is easy in debugging	 It is difficult in debugging
+
+3. Differentiate System and Application software.
+Ans: Computer software is divided into categories which are System software, and Application Software.
+Difference between System software and Application software
+S.No	System software	Application software
+1.	 It is designed to communicate with hardware and Application software.	 It is designed to communicate with user and his requirements..
+2.	 System software starts running when the system turns on, and runs until the system is not turn off.	 Application software runs only on the request of the user.
+3.	 System cannot run, without System software.	 System can run, without Application software.
+4.	 The system software is for general use.	 The application software is used for specific purpose.
+5.	 Example are Windows, Linux, Android etc.	  Examples are Microsoft Office, Photoshop, Paint etc.
+
+4. Describe artificial intelligence with examples.
+Ans: Artificial Intelligence (A.I.):
+The term Artificial Intelligence comprises of two words ‘Artificial’ and ‘Intelligence’, where, Artificial means ‘copy of  something natural’ and ‘Intelligence’ means ‘able to think.’ So, Artificial Intelligence can be defined as 'a copy of a human brain with thinking ability.'
+The term A.I. may also be referred to any machine that displays qualities associated with a human brain such as learning, reasoning and problem solving.
+According to John McCarthy, who is known as the father of AI, 
+“AI is the science and engineering of making intelligent machines, especially computer programs.”
+A.I is based on simulating human intelligence in machines that can easily mimic and execute tasks from simple to more complex operations.
+Examples:
+AI is found everywhere in the modern world. Some example of AI are:
+Electronic Mail:
+Electronic Mail is also called Email. There are lot of services of Emails, such as Gmail, Yahoo Mail, and Live etc. These mails systems have AI, to identify the SPAM emails and messages. The AI system protects your Email from viruses and fraud.
+
+Web Browsers: 
+Web browsers mean Google Chrome, Firefox, Opera, and other related programs which provides you safe surfing the Internet. These programs have AI system to protect you from harmful websites and other Internet services.
+
+GPS Application:
+GPS (Global Positioning System) applications are useful to find the best route for travelling. GPS applications are also based on AI system to monitor traffic in real time, accidents information, and about busy road.
+
+A.I. is also used for Machine Learning. It learns from our daily routines and suggests us different options. Like google maps suggest the best ways for our daily commute.
+A.I. is vastly used in scientific experiment, healthcare and space technologies.
+
+5. Discuss Impact and Non-Impact Printers with examples.
+Ans: The printers are commonly used now a days to make a hard copy or permanent copy of any soft copy or output.
+The printers are based on two types which are:
+Impact printer and
+Non-Impact printer.
+
+Impact Printers:
+Impact Printers are old printers which directly hit the ink of ribbon on paper. The hitting of ink ribbon on the paper cause noise. But these printers are still popular due to low cast print. It works slow as compare to non-impact printer.
+Example of Impact printer are dot matrix, daisy wheel and line printers.
+
+Non-Impact Printer:
+Non-Impact Printer are latest model of printer which are based on laser or inkjet technology. These printers don’t use any direct hitting part on paper and moving part, therefore, these are less noisy.
+Example of Non-Impact Printers are Inkjet printer and Laser printers.
+
+6. Write the use of these storage devices: Hard Disk, USB Flash Disk, SD Card.
+Ans: The storage devices are important hardware in computer science. The storage devices are used to store data permanently for later use. Each storage device has a different purpose to use.
+Some important storage devices and their use:
+
+Hard Disk:
+Hard disk drive (HDD) is main storage device to store data permanently. The HDD stores all data and information of the user and the system. The operating systems and programs are stored on it for the system, while file, data, and information are stored for the user.
+
+USB Flash Disk:
+USB stands for Universal Serial Bus. It is also used for permanently storage. The permanently storage mean data or information doesn’t not lose on power off on the hardware. The main purpose of USB is to take your data from one place to another which is called portable. You can copy your data on the USB and take it anywhere.
+
+SD Card:
+SD stand for Secure Digital. It has the same usage like USB, but the main purpose of SD Card is to use your data into mobile phone. You can copy your multimedia files, office files, and other files to use in mobile phone. You can also port your data using SD Card.
+
+7. Which monitor will you prefer in your school; CRT or FPD? Why?
+Ans: Monitors are used to display output (soft copy) from the computer. The preference of monitors is based on price, screen color, electric usage, weight and size, and latest technology.
+Comparison between CRT and FPD Monitor.
+
+Topic	CRT Monitor	FPD monitor
+Stands for	 CRT stands for Cathode Ray Tube./td>	 FPD stands for Flat Panel Display.
+Price	 Low price.	 High price.
+Screen Color	 It has not good color, which can cause pain for eyes.	 Nice HD color, and comfortable for eye against CRT.
+Electric Usage	 It consumes more power, so the low-price loss the advantage./td>	 It consumes low power, so high price got advantage.
+Weight and Size	 It has more weight and size against FDP	 It has less weight and size against CRT.
+Latest Technology	 It has old technology	 It has latest technology.
+
+(Note: FDP or FPD Monitors are same which means Flat Panel display)
+The above comparison shows that FDP monitors are preferable against CRT. So, I will prefer FPD monitor for my school.
+
+8. List any five components present on motherboard.
+Ans: Components Of Motherboard:
+It includes the following general components:
+Microprocessor (CPU)
+Slots (PCI slot)
+Ports (VGA port, USB port, LAN port, Audio in port, Audio out port.)
+Buses
+RAM and ROM 
+Other electronic components for example resistors, capacitors, diodes, transistors, jumpers etc.
+
+9. Prepare a table of generations.
+Ans: Computer Generation Table
+Generation	Period	Technology	Example of
+Machine
+(Major Inventions)
+First	1940-1956	Vacuum tubes	ENIAC, UNIVAC
+Second	1956-1963	Transistors	IBM 7094 and IBM 1401
+Third	1964-1971	ICs	IBM 360 and IBM 370
+Fourth	1971 to Present	Microprocessors	Apple Macintosh, IBM PC.
+Fifth	Present and Beyond	Artificial Intelligence Technology.	Humanoid Robot
+
+
+10. Give examples of business, education, entertainment and productivity software.
+Ans:
+S.No.	Business	Education	Entertainment	Productivity
+(i)	 Billing	 Tutorial Software	 Reference software like dictionaries, thesauruses, encyclopedias.	 Ms-Office
+(ii)	 Data Base Management	 Tutorial software e.g Typing tutorial	 Media Player	 Oracle
+(iii)	 Inventory Management	 Web Browsers	 Video games	 Adobe
+
+C. Match the columns:
+Ans:
+S.No.	A	S.No.	B	C
+(i)	 ALU	(a)	 Period of manually operated machines	(i), (d)
+(ii)	 Input Devices	(b)	 PC	(ii), (g)
+(iii)	 Secondary Storage Devices	(c)	 Process information using binary number system	(iii), (f)
+(iv)	 Productivity Software	(d)	 Perform arithmetic and logical operations	(iv), (e)
+(v)	 Mechanical Era	(e)	 Helps to produce spreadsheets, database etc	(v), (a)
+(vi)	 Digital Computers	(f)	 Large storage capacity, store data permanently	(vi), (c)
+(vii)	 Microcomputer	(g)	 Hardware device that sends data into a computer	(vii), (b)
+
+
+ACTIVITIES
+1. Develop a timeline for major innovations in computer evolution.
+Ans: Timeline for major innovations in computer evolution:
+
+
+
+
+2. Prepare a list of input and output devices and write their uses (functions).
+Ans:Ans: INPUT DEVICES:
+1. Key Board:
+Function:
+It is the most common text entering device.
+It is used to enter data usually in text format or to perform other controlling functions.
+
+2. Mouse and Track ball:
+Function:
+They are input pointing devices. They are used for the quick movement of cursor on screen needed usually in graphic mode.
+
+3. Touch pad Or Track pad:
+Function:
+It is an input pointing device and usually found in laptops as a substitute for the mouse. It allows you to move or control the cursor on the screen using your finger.
+
+4. Image Scanners:
+Function:
+Scanners are input devices which convert image into electronic format understandable by computers through light sensing.
+OR
+Scanner converts graphics and pictorial data to digital (binary) form which can be directly stored in computers.
+
+5. Optical Character Recognition (OCR)
+Function:
+Optical Recognition are also a type of image scanner and input device.
+It occurs when a device scans a clear printed surface and translates the image into machine-readable formats that a computer understands.
+OR
+OCR computer input device is designed to convert the scanned images of handwritten, typed or printed text into digital text.
+
+6. Microphones:
+Function:
+Microphones are used to accept sound input and convert it in digital audio format.
+Microphones are also used for voice recognition which can convert voice input into text files.
+
+7. Touch Screen:
+Function:
+It is also used for input purpose.
+It is the display screen of a device such as a smartphone, tablet, etc., that allows users to interact or provide inputs to the device by using their finger or any object on the screen.
+
+8. Magnetic Ink:
+Function:
+Character Recognition (MICR) and Magnetic Strip Reader are also used for input purpose.
+MICR computer input device is designed to read the text printed with magnetic ink.
+
+9. Digital Camera:
+Function:
+It is an input digital device as it captures images and records videos digitally and then stores them on a memory card.
+
+10. Webcam:
+Function:
+Any camera which is connected to a computer is called a webcam.
+It is an input device as it can take pictures, and can be used to record videos if required.
+The pictures and videos are stored in the computer memory and can be displayed on the screen if required.
+
+11. Bio-metric Devices:
+Function:
+Bio metrics refers to a process in which a person is identified through his or her biological features such as fingerprints, eye cornea, face structure, etc.
+It is done by using bio-metric devices, which can be of different types based on their scanning features and abilities, such as:
+i) Face Scanner
+ii) Hand Scanner
+iii) Fingerprint Scanner
+ iv) Retina or Iris Scanner
+v) Voice Scanner.
+
+OUTPUT DEVICES:
+1. Monitors:
+Uses:
+It is a soft copy output devices.
+It is TV like device that displays data by small bright dots called pixels.
+
+2. Data Projectors:
+Uses:
+Data projectors are soft copy output devices.
+They are used to show colorful slides and images directly from computer disk on a wall or large screen through an optical lens.
+They are also called digital light projectors and video projectors.
+
+3. Speakers:
+Uses:
+Speakers are soft copy output devices.
+Speakers give output in form of sound. They are good for people with visual disabilities or where display is not easy.
+
+4. Printers:
+Uses:
+Printers are hard copy output devices.
+They usually give output on paper and can print both text and graphics.
+
+5. Plotters:
+Uses:
+Plotter are hard copy output devices.
+Like printer it gives images on paper but typically used to print large format images such as maps, construction drawing, advertising hoardings etc.
+
+3. Make a list of specifications that you should know before buying a computer.
+Ans: Following are the basic requirement which we should know before buying a computer.
+1. Budget
+2. Buying Desktop or Laptop
+3. Processor
+4. RAM (computer memory) 1 GB- 4 GB according to Operating system i.e. 32 bits or 64 bits
+5. Hard Drive and SSD
+6.Graphics or resolution and Screen size
+7. Computer software or operating system i.e Windows 10 or Vista , Unix, MAC etc
+8. Anti virus software
+9. Internet connecting facilities Modem, wifi etc
+10. Sound card
+
+4. List analog, digital and hybrid devices from your surroundings (any five).
+Ans: Analog Devices are:
+Speedometer of a car
+Voltmeter
+Mechanical watches (Hand wrist watch)
+Thermometer
+Analog Multimeter
+Slide Rule
+Tide Predictors
+Operational Amplifiers
+Old Television
+Telephone lines
+
+Digital Devices are:
+Digital watch and clocks
+Digital camera
+Calculator
+Digital computer or Personal Computers (Desktops and Laptops)
+Smartphones, and Tablets
+Digital Weighing Machine
+Accounting machines
+ATM (Automated Teller Machine).
+
+Hybrid Devices are:
+Auto Gasoline Pump Station
+Petrol Pumps
+Electrocardiogram Machine
+Ultrasound Machine
+Monitoring Machine
+CT Scan Machine
+Routers (Network device)
+Radar System
+
+
+5. Label the following block diagram of computer system.
+Ans: block diagram of computer system
+
+
+
+Short Questions Answers
+
+Q.1: Define Computer?
+Ans: COMPUTER:
+A computer is an electronic data processing machine or device that performs processes, calculations and operations based on instructions provided by a program.
+Uses OR Advantages Of Computer:
+Computers are now used vastly in every field of life.
+The advancement in computer caused advancement in knowledge, science and technology.
+Today, computers are used in fields of business, industry, education, banking, transportation, research, explorations, media, entertainment , etc.
+
+Q.2: How many eras of evolution of computers are there? Name them. OR Highlight various stages in evolution in computers?
+Ans: Evolution Of Computer Era Or Ages Of Computer OR History Of Computer:
+The computers which we see today are modern shape of computers which have been evolved since centuries. The evolution of computers means computer developed from simple mechanical device to digital and modern electronic computer . The evolution of computer is generally divided in following three eras.
+Mechanical Era (Dark Age)
+Example: Abacus, Napier's Bone, Slide rule, Pascal Calculator, Leibniz's Calculator and Babbage's Difference and Analytical Engine.
+ 
+Electro-Mechanical Era (Middle Age)
+Example: Herman Hollerith's Tabulating Machine, Mark 1
+
+Electronic Era (Modern Age)
+Electronic era is divided into five generation.
+Example: ENIAC (1st Generation), IBM 7094 and 1401(2nd Generation), IBM 360 and 370 (3rd Generation), Apple Machintos , IBM and PC (4th generation), Laptop, Humanoid robot (5th Generation) etc.
+
+Q.3: Describe dark age of evolution of computer with invention and inventors?
+Ans: Mechanical Era Or Dark Age:
+Men have been trying to invent machines that can solve mathematical problems.
+In dark age or mechanical era, human became successful to make simple machines that could help performing simple arithmetic operation, in other words computing.
+These machines were manually operated since the electricity was not invented.
+Some of the important invention and inventors of this era are:
+
+
+Invention	Inventors	Period	Description
+(a) Abacus	China (3000 B.C.)	5000 years ago	
+It is also known as counting frame.
+Abacus is considered as first computer prototype.
+It is used to teach basic arithmetic operations to the students. 
+(b) Napier's Bones	Scottish mathematician John Napier	1612 A.D.	
+It is also called Napier's Rods.
+It was a small machine that contained ten rods. 
+The rods were made up of bones, wood or metal.
+Napier's Bones was used for multiplication and division.
+(c) Slide RuleThird	English mathematician William Oughtred 	1622 A.D
+It is based on the emerging work on logarithms by John Napier.
+This was basically a pair of two moveable rules placed side by side.
+They had a standardized set of markings called scales.
+These scales were used for mathematical computations.
+Slide Rule was used to multiply and divide numbers.
+The modern slide rules are still used in some countries.
+(d) Pascaline or Pascal's Calculator	French mathematician Blaise Pascal	1642 A.D.	
+This mechanical calculator which was called Pascaline.
+Pascaline can perform addition and subtraction by eight figures.
+User had to adjust wheels in order to perform these calculations.
+(e) Leibniz's Calculator	German mathematician Gottfried Wilhelm Leibniz	1694 A.D	
+It was also called stepped reckoner.
+It was the first calculator that could perform all four basic arithmetic operations; addition, subtraction, multiplication and division.
+(f) Difference and Analytical Engines	English mathematician and mechanical engineer
+Charles Babbage 	1822 and 1837 A.D.	 DIFFERENCE ENGINE:
+It was an automatic mechanical calculator.
+It was a large machine, made of metal and was powered by steam.
+It had storage (mechanical memory) that could hold the data temporarily for processing and to store results.
+It was based on predefined formulas and consist of three basic parts: Arithmetic and Logic Unit (ALU), Memory Unit (MU), Control Unit (CU)
+It was used to allow a user to enter calculations and get printed results.
+It worked on difference equations.
+
+ ANALYTICAL ENGINE:
+The proposed design included an ALU with basic programmatic flow control.
+It was programmed using punched cards and contained integrated memory.
+Historians consider it to be the first design concept of a general-purpose, automatic mechanical computer because of its comprehensive design.
+The machine was designed to consist of four components: The mill (calculating Unit), The store, The reader, The Printer
+
+
+Q.4: Why Charles Babbage is called the father of computer (modern digital computer)? OR Describe the contribution of Charles Babbage in the development of computer?
+Ans: Charles Babbage - Father of Computer:
+Charles Babbage was an English mathematician and mechanical engineer, the most deserving name in the history and development of computer. He is known as Father of Computer because he developed the first complete computing machine ( a true computer).
+DIFFERENCE ENGINE:
+In 1786, J.H. Muller proposed a calculating machine called a difference engine. The idea of the difference engine was conceived by Charles Babbage in 1812.
+Difference engine was his first invention, but after 19 years of labour, he stopped working on difference engine.
+Difference engine was an automatic mechanical calculator.
+Difference engine was a large machine, made of metal and was powered by steam.
+The Difference Engine had storage (mechanical memory) that could hold the data temporarily for processing and to store results.
+iv) It was based on pre-defined formulas and consist of three basic parts:
+a) Arithmetic and Logic Unit (ALU) b) Memory Unit (MU) c) Control Unit (CU) It was used to allow a user to enter calculations and get printed results. The Difference Engine worked on differential equations as a = a2
+
+
+
+ANALYTICAL ENGINE:
+Charles Babbage designed but could not build a very big machine in 1837. This was named Babbage Analytical Engine.
+
+
+The proposed design included an ALU with basic programmatic flow control.
+It was programmed using punched cards and contained integrated memory.
+Historians consider it to be the first design concept of a general-purpose, automatic mechanical computer because of its comprehensive design.
+The machine was designed to consist of following five components:
+a) The mill (calculating Unit): This was the processing unit that had to perform all the arithmetic operations automatically by rotation of gears and wheels.
+b) The store: to store the numbers fed to the machine and the numbers generated during processing.
+c) Control Unit: had to control all the other units. Moreover it had to transfer the numbers and instructions from store to the mill and vice versa through the rotation of gears and wheels.
+d) Input: had to enter data and instructions into store. The input media had to be in the form of punched cards.
+e) Output: had to display the results of calculations.
+
+
+
+
+Babbage Analytic Engine could not be completed due to the under developed technology of that time. But he laid down the foundation stone for the development of modern computer. So he is called the father of modern digital computer.
+
+Q.5: Write down differences between:
+(a) First Generation and Second Generation
+(b) Third Generation and Fourth Generation
+(c) Analog Computer and Digital Computer
+Ans:
+(a) Difference Between First Generation and Second Generation
+
+First Generation	Second Generation
+ Vacuum tubes were used as internal component.	 Transistors were used as internal component.
+ The size of computer were very huge called mainframes.	 The size of computer is smaller than the first generation.
+ They were low speed computer.	 They were 10 times faster than first generation computer.
+ Main memory was in the form of magnetic drum.	 Main memory was in the form of magnetic core (RAM and ROM).
+ Punched card was used as external storage.	 Magnetic tape and magnetic disk were used as external storage.
+ Machine language was used.	  Assembly language was used.
+
+
+(b) Difference Between Third Generation and Fourth Generation
+
+Third Generation	Fourth Generation
+ They used integrated circuits (ICs).	 They used microprocessor.
+ They were small is size and called as mini computer.	 They were very small is size and called as micro computer.
+ They could perform calculation in nanoseconds.	 They could perform millions of calculations per second.
+ Main memory was increased in the form of PROM and DRAM.	 Main memory was increased in the form of EPROM and SRAM.
+ Magnetic disk were developed and Floppy disk were used.	 Floppy disk were developed and hard disk were used.
+ High level language was used.	 4GL were used which is much easier high language.
+
+
+(c) Analog Computer and Digital Computer 
+
+
+Category	Analog Computer	Digital Computer
+Data represent	1. Analog computers represent data continuously.	1. Digital computers represent data directly, as 0s and 1s.
+Signal Types	2. Continuously varying electro-magnetic wave (continuous form).	2. Sequence of voltage pulses over time (discrete form).
+3. Analog computer measure quantities in  continuous form.	3. Digital computer process data in discrete form).
+Transmission	4. Means of transmission of analog signals without regard to their content.	4. Concerned with content of signal.
+5. Collection of data at very high speed.	5. Speed is less than Analog computers.
+6. They have low accuracy in general.	6. They are characterized by high accuracy.
+Data Types
+or
+Applications	7. Analog computer are commonly used for measurement of different physical quantities, scientific and engineering problems. chemical industries, electric power plants and petroleum refineries.	7. Digital Computers are used in home, educational institutes, offices, business, scientific fields, etc.
+Examples	8. Speedometer of a car, Voltmeter, Mechanical watches, Thermometer, Analog multimeter etc. 	8. Digital watch, calculator, digital computer etc.
+
+
+Q.6: Define types of computer?
+Ans: Types Of Computers
+There are three types of  computers, such as:
+Analog Computers
+Digital Computers
+Hybrid Computers
+
+(a) Analog Computers
+Analog Computers are used to process analog data.
+Analog data are in the form of continuously varying physical quantities like pressure, temperature, voltage, speed and weight.
+Uses: Analog computer are commonly used for scientific and engineering problems, chemical industries, electric power plants and petroleum refineries.
+Examples of Analog computer: are Speedometer of a car, Voltmeter, Mechanical watches, Thermometer, Analog Multimeteretc.
+
+(b) Digital Computers
+Digital Computers are most commonly used type of computers.
+Digital computers are specialize in counting.
+They are used to process information with quantities using the binary number system (0's and 1's).
+Digital computer has memory to store and solve problems.
+Digital computer is to handled alphabetic and alphanumeric data with precision and speed.
+Uses: Digital Computers are used in home, educational institutes, offices, business, scientific fields, etc.
+Examples: Digital watch, calculator, digital computer etc.
+
+(c) Hybrid Computers
+Hybrid Computers are the combination of Analog and Digital Computer system.
+These computers combine analog and digital features of computers in a single machine.
+A Hybrid Computer uses analog to digital and digital to analog conversion. It may input or output either digital or analog data.
+Examples: Auto Gas Station, Ultrasound machine, Radar System etc.
+
+Q.7: Draw a computer classification table according to capacity.
+Ans: Computer Classification Table According To Capacity
+Super
+Computers	Mainframe	Mini
+Computers	Micro
+Computers*
+Processing
+Power	Extremely high	Very high	High	Moderate to low
+Size	Very large	Moderately large	Medium	Small to handy
+Applications	Scientific Research and development	Business, Academic learning	Business , Academic learning	Business, Scientific, Research and Development, Academic learning
+Use	Simulation of highly complex systems	Centralized computing	Centralized computing	General to specialized for variety of use and needs
+Users	Federal agencies and Research organizations	Business, University	Business, University	Professionals in Business, Scientific and Academic fields
+
+(* Micro Computers: desktop, personal computers, portables, notebooks, hand held computers, and palmtops.)
+
+Q.8: Write the names of three major units of computer system?
+Ans: Generally the computer system consists of following three major units:
+System units
+Input Units
+Output Units
+
+Q.9: Define Bus. How many types of buses? Or What are buses in computer? Define the type of buses?
+Ans: Buses:
+In Computer, Bus is a set of wires through which data can transmit from one part of a computer to another.
+Or we can define as buses are the electric paths on which data is sent and received by different components.
+They are just like roads. As roads connect different places, buses connect all the parts of the computer to each other.
+They also connect all internal components on the motherboard with the CPU and main memory.
+Types Of Buses:
+There are three types of buses:
+Control bus
+Data bus and
+Address bus
+
+1. Control Bus:
+Control bus is a physical connection that carries command between different components to control all activities in a computer.
+The bus carries signals that report of status of various devices.
+e,g. one line of the bus is used to indicate whether CPU is currently reading from or Writing to main memory.
+
+2. Data Bus:
+Data bus carries data between the processor, memory unit and other components.
+The speed of data travelling between components depends upon the number of wires in the bus.
+
+3. Address Bus:
+Address bus carries the address of the data (but not the data). The address bus is used to specify memory location to be used by microprocessor for specific operation.
+Address bus is used to specify a physical address.
+e.g.  A system with a 32-bit address can address 232 memory locations
+
+Q.10: Define ALU and CU with their major functions.
+Ans: CONTROL UNIT (CU)
+Directs the entire computer system and works like a traffic cop, directing the flow of data between the components of CPU and other devices.
+
+FUNCTIONS OF CONTROL UNIT
+1. Control Unit directs the entire computer system to carry out stored program instructions.
+2. Extract instruction from RAM, decodes and executes them.
+3. Interprets and carries out instructions of computer programs.
+4. Communicate with both the arithmetic logic unit (ALU) and main memory.
+5. Control unit generates control signals using one of the two organizations:
+Hardwired Control Unit
+Micro-programmed Control Unit
+6. Control Unit instructs the arithmetic logic unit that which logical or arithmetic operation is to be performed.
+7. Control Unit co-ordinates the activities of the other two units as well as all peripherals and secondary storage devices linked to the computer.
+
+ARITHMETIC AND LOGIC UNIT (ALU)
+ALU stands for Arithmetic and Logic Unit.
+ALU performs mathematical, logical, and decision making operations in a computer which includes addition, subtraction, multiplication, division and perform certain logical operation such as comparing two numbers to see one is greater than other or they are equal, in this way computer is able to make simple decisions. After the processed of data by the ALU, it is sent to the computer memory.
+In some computer processors, the ALU is divided into two distinct parts, the AU and the LU. The AU performs the arithmetic operations and the LU performs the logical operations.
+
+FUNCTIONS OF ALU
+1. ALU performs mathematical operation like addition, subtraction, multiplication and division.
+2. It performs certain logical operation such as comparing two numbers to see one is greater than, less than or they are equal.
+3. ALU has simple decision making capabilities.
+
+Q.11: Write a note on Computer Registers?
+Ans: REGISTERS:
+Register is a temporary storage area known as programming model of 8 bits, 16 bits, 32 bits and 64 bits. Registers are visible as well as invisible on the microprocessor.
+They are special storage areas built into microprocessor used to quickly accept, store, and transfer data and instructions that are being used immediately by the CPU.
+ There are fourteen basic registers shared by ALU and CU.
+Commonly used Registers are AC (Accumulator), DR (Data Register), AR (Address Register), PC (Program Counter), MDR (Memory Data Register), IR (Index Register) and MBR (Memory Buffer Register).
+
+FUNCTIONS OF REGISTERS
+1. It has very fast small amount of memory that is built into the CPU.
+2. Registers are used to store data temporarily during the execution of a program.
+3. The register can contain the address of a memory location where data is stored.
+4. Contents can be accessed at extremely high speeds.
+5. There are fourteen registers in a microprocessor, while each of new microprocessor has few more registers for special reasons.
+
+Q.12: Define Keyboard? What are its different types. Name them?
+Ans: KEYBOARD:
+The keyboard is a basic input and text entering device that is used to enter data into a computer or any other electronic device by pressing keys. It has different sets of keys for letters, numbers, characters, and functions. Keyboards are connected to a computer through USB or a Bluetooth device for wireless communication.
+
+Types Of Keyboard:
+There can be different types of keyboards based on the region and language used. Most common types are as follows:
+QWERTY Keyboard:
+AZERTY Keyboard:
+DVORAK Keyboard:
+
+Q.13: Define Monitors and its type?
+Ans: Monitors:
+The monitor is the main output device. It is the display unit or screen of the computer like a TV device that displays data by small bright dots called pixels.
+It displays the processed data or information as text, images, audio or video.
+Monitors are of two types.
+Cathode Ray Tube (CRT)
+Flat Panel Display (FDP)
+
+1. Cathode Ray Tube (CRT):
+CRT monitors are based on the cathode ray tubes.
+It is similar to old television. Due to its big size and low display quality, FPR have replaced the CRT monitors, the CRT monitors are still used by graphics professionals because of their color quality.
+
+2. Flat Panel Display (FPD):
+The FPD monitor is a flat panel screen that is compact, light-weight and has better display quality as compared to CRT monitors. It is based on liquid crystal display technology which is used in the screens of laptops, tablets, smart phones, etc.
+LCD, LED and Plasma monitors are examples of FPD.
+
+Q.14: Differentiate between:
+1. RAM and ROM
+2. Primary Memory and Secondary Memory
+3. Compiler and Interpreter
+4. Input Device and Output Device
+Ans:
+1. Difference Between RAM and ROM
+S.No.	RAM	ROM
+1.	 It is a Random-Access Memory.	 It is a Read Only Memory.
+2.	 Read and write operations can be performed.	 Only Read operation can be performed.
+3.	 Data can be lost in volatile memory when the power supply is disconnected.	 Data cannot be lost in non-volatile memory when the power supply is turned off.
+4.	 It is a faster and expensive memory.	 It is a slower and less expensive memory.
+5.	 Storage data requires to be refreshed in RAM.	 Storage data does not need to be refreshed in ROM.
+6.	 The size of the chip is bigger than the ROM chip to store the data.	 The size of the chip is smaller than the RAM chip to store the same amount of data.
+7.	 It is temporary memory.	 It is permanent memory.
+8.	 This is used to store data and instructions temporarily.	 It stores the major setting of computer permanently.
+9.	 Types of RAM: DRAM and SRAM	 Types of ROM: MROM, PROM, EPROM, EEPROM
+
+2. Difference Between Primary Memory and Secondary Memory
+S.No.	Primary Memory	Secondary Memory
+1.	 It is also known as temporary memory.	 It is also known as a permanent memory.
+2.	 Data can be access directly by the processor or CPU.	 Data cannot be accessed directly by the I/O processor or CPU.
+3.	 Stored data can be a volatile or non-volatile memory.	 The nature of secondary memory is always non-volatile.
+4.	 It is more costly than secondary memory.	 It is less costly than primary memory.
+5.	 It is a faster memory.	 It is a slower memory.
+6.	 It has limited storage capacity.	 It has a large storage capacity.
+7.	 It required the power to retain the data in primary memory.	 It does not require power to retain the data in secondary memory.
+8.	 Examples of primary memory are RAM, ROM, Registers, EPROM, PROM and cache memory.	 Examples of secondary memory are CD, DVD, HDD, magnetic tapes, flash disks, pen drive, etc.
+
+3. Difference Between Compiler  and Interpreter.
+S.No	Compiler	Interpreter
+1.	 Translate the whole program at once	 Translate one instruction at a time.
+2.	 It creates an object file for execution.	 Interpreter does not create an object file.
+3.	 Translation is not required for object program..	 Translation is not required every time for execution.
+
+4. Difference Between Input Device and Output Device
+S.No.	Input Device	Output Device
+1.	The input device receives data or instructions from users.	An output device displays or produce data (information) on the screen for users.
+2.	It works for translating user-friendly instructions into a machine friendly.	It works for translating the machine's instructions to user intelligible.
+3.	An input device can be commanded by the user.	Processor commands output device.
+4.	It accepts data from the user as an input and forwards it to the processor for further processing.	The output device takes the processed data from the processor and sending it back to the user.
+5.	Its design is more complex.	As compared to input devices, its design is less complex.
+6.	There are various input devices available like Microphone, Joystick, Keyboard, Pointing device, Image Scanner, Graphics tablet, and more.	There are several output devices available such as Speakers, Printers, Plotters, Projector, Monitor and more.
+
+
+Q.15: List out the names of different application software?
+Ans: Different types of application software are:
+Productivity Software
+Business Software
+Entertainment Software
+Educational software
+
+Q.16: List out the names of different system software?
+Ans: System software includes:
+operating systems
+device drivers
+utility programs and
+language translators.
+
+Q.17: Classify different hardware devices as per their functionality?
+Ans: Hardware devices can be classified into four distinct categories:
+Input devices: For raw data input.
+Processing devices: To process raw data instructions into information.
+Output devices: To disseminate data and information.
+Storage devices: For data and information retention.
+
+Q.18: Differentiate between Hard ware and Software?
+Ans: Difference Between Hardware and Software 
+S.No.	HARDWARE	SOFTWARE
+1.	 Hardware refers to all physical components forming a computer.	 Software refers to the programs that instruct the computer what to do.
+2.	 Hardware executes the instruction.	 Software enables users to interact with the computer, its hardware.
+3.	 Hardware can be seen and touched as it is a physical, electronic device..	 It can be seen but can not be touched as it is virtual, not physical..
+4.	 It is permanent.	 It is temporary.
+5.	 All hardware components may be connected mechanically, electrically and electronically with each other.	 They are designed by the manufacturers on the programmers to fulfill the requirements.
+6.	 Hardware includes:
+Input devices
+Output devices
+CPU
+Backing storage
+Electronic Circuits
+Resistors, Capacitors, ICs.
+ Software is of two types:
+System software
+Application software
+7.	 It is manufactured in factories.	 It is developed by software programmers or software development companies.
+8.	 Computer viruses cannot affect hardware.	 Computer viruses can affect software.
+9.	 Hardware can be replaced with a new one if it is damaged.	 The software is reinstalled if it gets damaged.
+10.	 Through the network, hardware cannot be transferred electrically. Only, it can be physically transferred.	 The software can be transferred easily.
+11.	 Example: CPU, Computer Memory, Motherboard, Monitor, Mouse, Printer, Hard disk etc.	 Example: Windows, Visual Basic, Microsoft word, Microsoft Excel , Adobe, Google Chrome etc.
+

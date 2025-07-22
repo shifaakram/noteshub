@@ -1,0 +1,116 @@
+Development of web sites and online applications is called web development. This is done by coding in different languages and by using several web development tools and frameworks. A complete web application may consist of a User Interface, Back-End Server Codes and a Database.
+
+The word world wide web (www) is commonly known as the web. The Web is a collection of computers connected through a network to provide publicly accessible information.
+
+A webpage is a document commonly written in HTML that is accessible through the internet by using an internet browser.
+
+A website is a collection of web pages containing text, images, and all types of multimedia related to a specific set of information. A website can be accessed through a Uniform Resource Locator (URL).
+
+A web browser is a software application for accessing websites on the world wide web. Most common web browsers include Microsoft Internet Explorer, Google Chrome, Mozilla Firefox, and Safari.
+
+It is the address of a resource on the internet (e.g. https://www.google.com). It includes the following two components:
+- The protocol used to access the resource (https://)
+- The location of the server (www.google.com)
+
+A Search Engine is a web-based tool that enables a user to locate information on the web. Most popular search engines are Google, Yahoo, and Bing.
+
+A home page (also known as landing page) is a web page that serves as the starting point of the website.
+
+Web Hosting is a service that allows a web developer to make a website publicly accessible through the internet.
+
+A web server is the computer that is responsible for serving a website and all of its content including text and media to a user.
+
+A web portal is a website that provides a single access point of information for all of its users. It collects information from different sources like emails, forums, search engines and presents it to the user in a uniform way. Yahoo and MSN are common examples of web portals.
+
+A news website is the modern-day alternative for newspapers. Such websites contain everyday information related to current affairs, sports, politics, weather, health, technology, entertainment, etc.
+
+Informational websites provide detailed information of any field. There are many dedicated informational websites for science, arts, sports, online trainings, research, etc.
+
+Educational websites are purely designed to deliver educational material for both, teachers and students such as sabaq.pk, khan academy.org, etc.
+
+A person can share about his or her biography or achievements in a custom developed website.
+
+A business website is the best way for any organization to market their products and services. It also tells about the teams, policies, and procedures of that business. For instance, www.psx.com.pk is the website of Pakistan Stock Exchange.
+
+A blog is a special type of website that is composed of articles and posts. These articles are organized into categories and sorted by the time when they were published. Wordpress is a popular blog site.
+
+A forum is an online place where different users can discuss about any topic. These topics can be categorized so that users can easily locate topics of their interest.
+
+An entertainment website serves content like videos or games purely for the purpose of entertainment. Youtube is widely used for entertainment.
+
+HTML stands for Hypertext Markup Language. HTML is used to create web pages that are displayed by web browsers mainly on the internet.
+
+It is standard markup language for text documents. It allows the user to create structured content by adding headings, paragraphs, links, blockquotes and other media. It takes advantage of simple code structures called tags and attributes to achieve formatting, graphic and navigation effects on web pages.
+
+Creating a simple web page using HTML is very easy. It requires a text editor, a file with .html extension, and a web browser to view that page.
+
+Start by simply creating a new blank file in a text editor of your choice. A simple text editor like notepad can be used to start coding HTML for a web page.
+
+Go to File menu and click on Save. Make sure to provide .htm or .html extension for the file being saved. This will save the document as a web page instead of a plain text file.
+
+Open the saved HTML file in your default web browser. The web browser will automatically translate HTML codes to correctly display the web page.
+
+HTML elements are the building blocks of HTML pages. These elements are defined by placing HTML tags in our document. These tags are placed inside angular brackets. Some tags also allow further customization by adding attributes to them. An HTML tag has the following structure:
+- Simple Tag: <tag-name> content </tag-name>
+- Tag with Attribute: <tag-name attribute-name=“attribute value”> content </tag-name
+
+HTML tags are used to define various elements in a web page. For example:
+- It defines the title of a web page. Titles are very important as they appear on top of the browser window and displayed on search engine result pages.
+- It defines the footer for a web page. e.g. “Copyright 2020. All rights reserved.”
+- It specifies the HTML version used so the web browsers can show the web page according to HTML standards. All HTML documents must start with this tag.
+- All HTML documents start with <html> tag and end with </html> tag.
+- It is used to define additional information about the web page. It contains a set of tags such as <title>, <meta>, <style>, <script>, etc.
+- The main content of the web page is contained between <body> and </body>.
+
+Some HTML tags introduce content directly into the web page while others enhance the design and format of that content. Some commonly used HTML tags which change the looks of the web page include:
+- It defines a paragraph of text in a webpage. It always starts from a new line and adds space before and after its text.
+- It defines a line break and starts the following content from a new line. Unlike <p> tag, it does not add space before or after the break.
+- It draws a horizontal line where it is defined. It is used to differentiate between sections of the page.
+- It is used to define six levels of HTML headings (h1, h2, h3, h4, h5, and h6) with <h1> being the heaviest heading and <h6> being the lightest heading.
+
+Lists are very useful in displaying point by point information such as to-do lists, list of ingredients for a recipe, list of categories, etc. HTML provides three different types of list elements namely Unordered Lists, Ordered Lists, and Description Lists. The web browsers automatically add indents, spaces, and markers to HTML lists.
+
+An unordered list is a list of related items in which the order of items is irrelevant. It is defined by <ul> tag and each of its list items is defined by <li> tag. The web browser will display these list items as bullet points.
+
+An ordered list also displays a list of related items. It is used where the order of the list is important. It is defined by <ol> tag and each of its list items is defined by <li> tag. The web browser will display these list items with numbers starting from 1 instead of bullet points.
+
+Description lists are used to display different terms and their descriptions just like in a dictionary or glossary. It is defined by <dl> tag and each of its list items is composed of two elements: term and description. Term is defined by <dt> tag and its description is defined by <dd> tag.
+
+A very powerful feature of HTML lists is their ability to nest one into another. Any of the list types can contain any other list type as its list item. It is defined by placing the new list tag inside the <li> tag of the previous list.
+
+Images and backgrounds give a visual appeal to the websites. Sometimes images can present a better understanding than long and uninteresting texts.
+
+Images can be inserted in an HTML document by using <img> tag. This does not create a copy of the image. Instead, it only creates a reference to the original image placed somewhere in the computer's storage. The <img> tag is an empty tag which means that it does not require a closing tag. It contains five attributes out of which two are required and three are optional.
+
+The web browsers display an HTML document with a white background by default. However, this can easily be changed to a different color or even an image with the help of bgcolor and background attributes of the <body> tag. bgcolor: This attribute is used to change the color of the entire web page. Its color value can be defined as RGB code, hexadecimal code, or by color name. background: This attribute is used to display an image as the background of the web page.
+
+Hyperlinks allow a user to navigate from one web page to another. It also enables users to navigate to different sections within the same web page. Hyperlinks convert text or other media into clickable objects.
+
+A hyperlink in HTML is defined by <a> tag and its href attribute. The value of href is the reference of another web page or a different section within the same page.
+
+Tables allow displaying the content (like text, image, links) in the form of rows and columns. The coordinating place of a row with a column is called a cell. These cells contain some content of the webpage. In HTML, a table is defined by <table> tag.
+
+A row is the collection of all horizontal cells of a table. A table can contain any number of rows. All the rows in a table have an equal number of cells. It is defined by <tr> tag which is placed inside the <table> tag. A column is the collection of all vertical cells of a table. A table can contain any number of columns as well. It is defined by <td> tag which is placed inside the <tr> tag.
+
+HTML table allows defining a header for the columns of our table. A header cell is defined by <th> tag and is placed inside a <tr> tag. It is used to differentiate from the content placed inside normal data <td> cells. 
+
+The content is placed inside a cell in a table by using <td> tag. A cell can contain any type of data such as text, image, media, link, etc.
+
+Tables can be styled using various attributes such as align, width, border, cellpadding, and cellspacing. 
+
+HTML frames are powerful elements which allow displaying the contents of another HTML document within a web page. A web page can be divided into multiple sections and each section can display all contents from a different web page by using frames. It is defined by <frame> tag. The attribute is used to provide the reference URL of another web page to be displayed in this frame.
+
+Framesets define how a web page is divided into rows and columns to display multiple frames on that web page. It is defined by <frameset> tag and contains one or more <frame> tags.
+
+Following is the list of some of the tools that help in designing and developing a website:
+- Microsoft FrontPage
+- Coral Draw
+- Adobe Dreamweaver
+- Wordpress
+- Microsoft Visual Studio
+- Wix
+- Figma
+- CoffeeCup HTML Editor
+- Adobe XD
+
+The web development process involves various steps, including planning, designing, coding, testing, and maintaining the website. Each step is crucial for ensuring that the final product meets the desired specifications and functions correctly.

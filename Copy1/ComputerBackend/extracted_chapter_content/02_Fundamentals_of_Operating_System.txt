@@ -1,0 +1,87 @@
+An Operating System is a software which performs all the basic tasks like booting the computer, file management, memory management, process management, and controlling peripheral devices such as hard disk, printer, etc. It manages computer resources efficiently. Most common operating systems are: DOS, Windows, Linux, Android, Mac OS and iOS.
+
+Operating system manages every activity of a computer. It is the master control program that provides an interface for a user to communicate with computer. System software and application software run on operating system. Operating System performs the following functions.
+
+Booting is a process of starting the computer operating system. It checks the computer resources and makes it ready to perform different tasks.
+
+Operating system manages all the hardware and software resources. This includes allocation and de-allocation of processor, memory, access to shared cache memory and access to network resources.
+
+We interact with operating system through user interface. Command interpreter is one of the parts of operating system which reads the commands from user, interprets them and translates them into machine language instructions that the computer hardware can understand.
+
+Memory management module performs the task of allocation and de-allocation of memory space to programs and data in need of these resources.
+
+An Operating System provides the device driver to facilitate I/O functions involving I/O devices. These device drivers are software that control I/O devices through their controllers.
+
+It manages all the file-related activities such as organization storage, retrieval, naming, sharing, and protection of files.
+
+A process is a job or activity to be performed by the system. Process management manages creation, deletion, suspension and resumption of processes. The term process refers here to program code that has been loaded into a computer's memory for execution by the central processing unit (CPU). In a multiprogramming system, there will be a number of computing processes. The operating system must ensure that each process gets a fair share of the CPU's time. The OS decides the order in which processes have access to the processor, and how much processing time each process should get. This function of OS is called process scheduling.
+
+An interface is a program that allows a user to interact with the computer or another computer over a network. A User Interface (UI) is the part of operating system, program, or devices that allows a user to enter and receive information. There are many types of User Interfaces. Two most common user interfaces are discussed below:
+
+A Command Line Interface (CLI) is a screen or text based representation in which the user types the commands on place called prompt to operate the computer. Command contains string of characters. CLI is difficult to use because the user has to remember the commands and their syntaxes but it is fast in use because text mode takes less resources. It was primarily provided to users by computer terminals on UNIX, and personal computers including MS-DOS and Apple DOS.
+
+A GUI provides a user friendly environment where user can interact with computers through graphical objects such as menus, icons, buttons and other graphical objects. It is easy to use as users are supposed to just click on a picture to run commands without memorizing them. GUI is slower than CLI as graphical mode takes more memory and resources. Windows and IOS are the example of GUI.
+
+In a Single User Operating System, a single user can access the computer system at a time. These types of operating systems are commonly used. DOS for PCs and Windows 98 for PCs are example of single user operating system. A Multi-User Operating System allows multiple users to access the computer at same time. The operating system manages the memory and resources among the various users according to the requirement. Linux and UNIX are the most common examples of the multi-user operating system.
+
+General term of Batch Processing is used for programs that are executed with minimum human interaction. This type of operating system does not interact with the computer directly. Each user prepares his job and submits it to the computer operator. To speed up processing; jobs with similar needs are batched together and run as a group by an operator. The main function of a batch processing system is to automatically keep executing the jobs in a batch. The benefits of batch processing are:
+
+Batch systems can be shared by multiple users.
+The idle time for batch system is very less.
+Next job starts just after the current one.
+Time sharing is a method that allows multiple users to share resources simultaneously. Multiple users can use a specific computer at the same time in different places. A time sharing operating system is that in which from many tasks each task is given some time to execute so that all processes run smoothly without any problem. Multiple jobs are executed by the CPU by switching between them. As the system switches rapidly from one task or user to the other, a short time slot is given to each task or user for their executions and all feel that system is not shared. Thus, the user can receive an immediate response. For example, in a transaction processing, the processor executes each user program in a short time. These systems are also known as Multitasking Systems. The task can be from single user or from different users also. The time that each task gets to execute is called quantum. After this time interval is over OS switches over to next task.
+
+A Real Time Processing Operating System is a time bound operating system which has fixed time limit. Processing has to be done within the defined time limit otherwise system will be failed. Real Time Process System classified into two parts:
+
+Hard Real Time System: A Hard Real Time System guarantees that critical tasks complete on time, even the shortest delay or urgency is not acceptable. Here system should meet the deadline. Missile systems and Air Traffic Control System are best examples of Hard Real Time System.
+Soft Real Time System: In this time constraint is less strict. The meeting of deadline is not compulsory for each task, every time. A critical real-time task gets priority over other tasks until it completes. It does not guarantee that task will be completed in defined time but before a certain time and according to the priority. Online Transaction System, Airline Ticket Reservation in which reservation could be delayed but should be done after checking available seats and completed before aeroplane flight, etc. are the examples of Soft Real Time System.
+Software installation is the process of making programs ready for execution. Software installation or installer is a computer program that installs files, such as applications, drivers, or other software, onto a computer. Software is installed onto a computer by various means. They can be downloaded from the internet. They can also be installed from an installation CD or DVD or from a USB flash drive.
+
+Major Steps for Installing Windows
+
+Insert the Windows Installation DVD/Flash Drive
+Restart your Computer
+Wait for the first startup screen
+Press or hold Del or F2 to enter the BIOS screen
+Locate the Boot order/ Boot sequence
+Select Boot order/ Boot sequence as per your installation source
+Select any option: Upgrade or Customize Installation (Advance)
+Select any drive for installing your operating system
+Follow the on-screen instructions
+The operating system is the most essential software and there are many operating systems available. Windows is the most commonly used operating system which is developed by Microsoft. Choosing an operating system depends upon the hardware that we have. To maintain compatibility between hardware and software, the operating system vendor specifies the minimum hardware requirement. For installing Windows 10, we will need at least the following configuration:
+
+1GHz (speed of CPU should be at least 1 Gigahertz)
+32GB (hard disk space should be at least 32 Gigabytes)
+1GB for 32-bit or 2GB for 64-bit (RAM – Random Access Memory – a type of computer memory, 32 bit and 64 bit are data units)
+800x600 (computer monitor capability)
+DirectX 9 or later with WDDM 1.0 driver (graphics card is computer hardware that produces images seen on monitor screen)
+Windows is an Operating System which needs to install other software to make the best use of our computer. Office Automation software is the most common software package that we install on our computers. Office Automation software is a group of computer programs that help users in their daily work. Generally, you will find MS Office in school lab, offices, and other places. MS Office contains word processor (MS Word), spreadsheet (MS Excel), multimedia presentation (MS PowerPoint), database management system (MS Access) and email application (MS Outlook). In class 9, we will use MS- Word, MS Excel and MS-Access in coming units. To install MS- Office package we need to take following steps.
+
+Run the MS- Office setup from USB, DVD or Hard Disk backup.
+Check the box marked 'I accept the terms of this agreement' and click on 'Continue'.
+Enter Product Key
+Click on Install Now or Customize procedure.
+Select the package which you want to install. Click on 'Install Now'.
+Then installation begins.
+MS Office installer will notify automatically after finishing the installation.
+Before installing MS- Office, make sure that your hardware and software meet with the minimum requirements for the version of MS- Office that you want to install. The minimum requirements may differ from version to version. (For MS- Office 2013 the minimum requirements are: 1.6 GHz processor, 1 GB RAM, 3 GB hard disk free space, minimum Windows 7 operating system and graphics driver).
+
+To keep our computer secure and free from viruses, we need to install an antivirus software. A number of free antivirus software are available online. AVG, Avast, Avira and Kaspersky are some of the free antivirus software. These days we need to download installation file from respective antivirus software and run it but make sure that computer has the access of internet. After running the installation file, antivirus software will be automatically installed on our computer. Most important component of an antivirus software is the virus database which antivirus software updates time to time. We must update our virus database for preventing virus threats.
+
+Keeping ourselves safe from malware and viruses is mostly in our hands. More than 90% of computers are infected due to the user's mistake. Our computers have caught a virus if they start slowing down, behave unusually, crash during processes or restart several times, show annoying messages and some of our documents disappear or become inaccessible. We must avoid this situation to be created. Some simple measures can prevent our system from malware and viruses.
+
+Install anti-virus software and keep it updated.
+Run scheduled scans regularly with your anti-virus software.
+Keep your operating system updated.
+Do not click on internet links which have unusual labels, images or captions.
+Do not open email attachments or click on hyperlinks from unknown senders.
+Scan USB flash drive, SD cards and mobile phones before opening.
+Use your spam blocking or filtering tools to block unsolicited emails, instant messages and pop-ups.
+Only download files and programs from trusted sources on the internet.
+Never use an open WiFi.
+Besides this, we should also take some measures to recover data from any potential loss. Some steps in this regard are:
+
+Create a system restore point regularly and check if it is not disabled.
+Write important data on CDs or DVDs. Since they are write-protected, they do not catch viruses.
+Have the back-up of important files at more than one place.
+You can also save documents on cloud storage like Google Drive and Microsoft OneDrive.
