@@ -33,7 +33,11 @@ yarn-error.*
 # local env files
 .env*.local
 
+# .gitignore
+.env
+
 # typescript
 *.tsbuildinfo
+
 
 app-example
