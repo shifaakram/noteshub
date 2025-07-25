@@ -6,15 +6,36 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"  // Explicitly build an APK for quicker development testing
+      },
+      "ios": {
+        "buildConfiguration": "Debug" // Debug configuration for faster local iteration
+      }
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"  // APK for internal testing before production
+      },
+      "ios": {
+        "buildConfiguration": "Release" // Release configuration for testing app store-like builds internally
+      }
     },
-     "production": {
+    "production": {
       "autoIncrement": true,
+      // It's generally recommended to keep caching ENABLED to speed up builds.
+      // Only disable if you're consistently running into caching issues.
+      // Removing the 'cache' block or setting "disabled": false achieves this.
       "cache": {
-        "disabled": true
+        "disabled": false // Change to false to enable caching
+      },
+      "android": {
+        "buildType": "app-bundle" // Crucial: Build an AAB for Google Play Store submission
+      },
+      "ios": {
+        "buildConfiguration": "Release" // Standard release configuration for App Store/TestFlight
       }
     }
   },
