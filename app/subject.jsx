@@ -10,6 +10,8 @@ import {
 } from "react-native";
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
+const whatsAppGreen = '#075E54';
+
 const subjectData = [
   { name: "Mathematics", icon: "➗", bgColor: "#FF7F50", iconColor: "#fff" },
   { name: "Urdu", icon: "✒️", bgColor: "#8A2BE2", iconColor: "#fff" },
@@ -38,7 +40,7 @@ export default function SubjectSelection() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar barStyle="light-content" backgroundColor="#075E54" />
+      <StatusBar barStyle="light-content" backgroundColor={whatsAppGreen} />
 
       <View style={styles.header}>
         <TouchableOpacity onPress={() => router.back()} style={styles.backButton}>
@@ -47,7 +49,10 @@ export default function SubjectSelection() {
         <Text style={styles.headerTitle}>Choose Subject</Text>
       </View>
 
-      <ScrollView style={styles.listContainer} contentContainerStyle={styles.scrollContent}>
+      <ScrollView
+        style={styles.listContainer}
+        contentContainerStyle={styles.scrollContentContainer}
+      >
         {subjectData.map((subject) => (
           <TouchableOpacity
             key={subject.name}
@@ -69,7 +74,7 @@ export default function SubjectSelection() {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "white" },
   header: {
-    backgroundColor: "#075E54",
+    backgroundColor: whatsAppGreen,
     paddingVertical: 16,
     paddingHorizontal: 16,
     flexDirection: "row",
@@ -88,8 +93,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "white",
   },
-  scrollContent: {
-    paddingTop: 16,
+  scrollContentContainer: {
     paddingBottom: 32,
   },
   listItem: {

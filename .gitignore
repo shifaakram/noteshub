@@ -33,11 +33,17 @@ yarn-error.*
 # local env files
 .env*.local
 
-# .gitignore
+# .gitignore itself
 .env
 
 # typescript
 *.tsbuildinfo
 
+# Explicitly ignore common archive formats that might cause build issues if included
+*.tar
+*.tar.gz
+*.tgz
+*.zip
 
+# Example of a specific directory to ignore, if it exists and you don't want to track it
 app-example

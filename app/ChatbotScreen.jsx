@@ -1,4 +1,4 @@
-// ChatbotScreen.jsx - UPDATED (Removed Toggle and Wiki Search)
+// ChatbotScreen.jsx
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import {
   View,
@@ -13,23 +13,21 @@ import {
   StatusBar,
   Alert,
   StyleSheet,
-  // Removed Switch
-  useWindowDimensions, // Import useWindowDimensions
+  useWindowDimensions,
 } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import Constants from 'expo-constants';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
-// Ensure your GEMINI_API_KEY is correctly configured in app.config.js or app.json
 const GEMINI_API_KEY = Constants.expoConfig?.extra?.geminiApiKey;
-const BASE_BACKEND_URL = 'http://192.168.100.12:3000'; // Still needed for chapter content fetch
+const BASE_BACKEND_URL = 'http://192.168.100.12:3000'; // Still defined but no longer used in this file for chat
 
 let geminiModel = null;
 if (GEMINI_API_KEY) {
   const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
   geminiModel = genAI.getGenerativeModel({
-    model: 'gemini-2.5-flash', // Using a suitable model
+    model: 'models/gemini-2.5-flash',
     generationConfig: {
       temperature: 0.2,
       topP: 0.9,
@@ -67,7 +65,6 @@ const ChatbotScreen = () => {
   const [messages, setMessages] = useState([]);
   const [inputMessage, setInputMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  // Removed [useBackend, setUseBackend] state
   const [chapterContent, setChapterContent] = useState('');
   const [isChapterLoading, setIsChapterLoading] = useState(false);
 
@@ -93,14 +90,12 @@ const ChatbotScreen = () => {
         const res = await fetch(`${BASE_BACKEND_URL}/chapter-content/${chapterUnit}`);
         if (!res.ok) {
           setChapterContent('');
-          console.warn(`Chapter content for unit ${chapterUnit} not found on backend.`);
         } else {
           const text = await res.text();
           setChapterContent(text);
         }
-      } catch (error) {
+      } catch {
         setChapterContent('');
-        console.error("Error fetching chapter content:", error);
       } finally {
         setIsChapterLoading(false);
       }
@@ -119,37 +114,34 @@ const ChatbotScreen = () => {
     try {
       let aiResponseText = '';
 
-      if (!geminiModel || !chapterContent) {
-        aiResponseText = "I can only answer questions from the loaded chapter content. Please ensure a chapter is selected and your Gemini API key is configured.";
-      } else {
+      if (geminiModel && chapterContent) {
+        // Try Gemini with context first
         const contextPrompt = `
 You are an expert tutor. Answer the following question using ONLY the provided chapter content below.
-If the answer is NOT found in the content, reply EXACTLY with: NOT_FOUND_IN_CONTEXT
+If the answer is NOT found in the content, reply exactly with: NOT_FOUND_IN_CONTEXT
 
-Chapter Title: ${chapterContext}
 Chapter Content:
 ${chapterContent}
 
 Question:
 ${userMessage}
-          `.trim();
+        `.trim();
 
-        try {
-          const result = await geminiModel.generateContent(contextPrompt);
-          let aiText = result.response.text();
-          if (typeof aiText.then === 'function') {
-            aiText = await aiText;
-          }
-
-          if (aiText.trim() === "NOT_FOUND_IN_CONTEXT") {
-            aiResponseText = `I'm sorry, I couldn't find the answer to "${userMessage}" in the provided chapter content.`;
-          } else {
-            aiResponseText = aiText;
-          }
-        } catch (geminiError) {
-          console.error("Gemini content generation failed:", geminiError);
-          aiResponseText = "I apologize, but I encountered an error trying to process your request using the chapter content. Please try again.";
+        const result = await geminiModel.generateContent(contextPrompt);
+        let geminiText = result.response.text();
+        if (typeof geminiText.then === 'function') {
+          geminiText = await geminiText;
         }
+
+        if (geminiText.trim() === "NOT_FOUND_IN_CONTEXT") {
+          // If not found in chapter content, display apology
+          aiResponseText = "I'm sorry, I couldn't find a relevant answer for your question within the chapter content. Please try rephrasing or asking a different question. 😔";
+        } else {
+          aiResponseText = geminiText; // Found in chapter
+        }
+      } else {
+        // If no Gemini model or no chapter content, directly display apology
+        aiResponseText = "I'm sorry, I cannot answer your question at this moment as the chapter content is unavailable or the AI model could not be initialized. Please try again later or select a different chapter. 😔";
       }
 
       appendMessage('ai', aiResponseText);
@@ -177,17 +169,6 @@ ${userMessage}
             </TouchableOpacity>
             <Text style={styles.headerTitle}>{chapterContext ? `${chapterContext} Chatbot` : 'AI Chatbot'}</Text>
           </View>
-
-          {/* Removed Toggle Row */}
-          {/* <View style={styles.toggleRow}>
-            <Text style={styles.toggleLabel}>Use Custom Backend (for internet search)</Text>
-            <Switch
-              onValueChange={setUseBackend}
-              value={useBackend}
-              trackColor={{ false: "#767577", true: whatsAppGreen }}
-              thumbColor="#f4f3f4"
-            />
-          </View> */}
 
           <ScrollView
             ref={scrollViewRef}
@@ -257,14 +238,14 @@ ${userMessage}
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#fdfdfd' },
   header: {
-    backgroundColor: '#075E54',
+    backgroundColor: whatsAppGreen,
     padding: 16,
     flexDirection: 'row',
     alignItems: 'center',
   },
   backButton: { marginRight: 16 },
   headerTitle: { color: '#fff', fontSize: 20, fontWeight: '600', flex: 1 },
-  toggleRow: { // Still here but commented out in JSX
+  toggleRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',

@@ -20,7 +20,8 @@ const chapters = [
   {
     unit: "01",
     title: "Fundamentals of Computer",
-    blogUrl: 'https://drive.google.com/file/d/1Hil6t6BPG-JRchuxG8OTOryLMt9rWQyX/view?usp=drive_link',
+    blogUrl: 'https://red-karlen-55.tiiny.site/',
+    //blogUrl: 'https://drive.google.com/file/d/1Hil6t6BPG-JRchuxG8OTOryLMt9rWQyX/view?usp=drive_link',
     // UPDATED: Use the provided URLs for Chapter 1
     handwrittenImageUrls: [
         'https://i.ibb.co/GQNMBSzb/Computer-1.jpg',

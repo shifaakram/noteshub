@@ -1,3 +1,4 @@
+// HandwrittenImageViewerScreen.jsx
 import React, { useState, useEffect } from 'react';
 import {
   SafeAreaView,
@@ -8,15 +9,17 @@ import {
   StatusBar,
   StyleSheet,
   Dimensions,
-  Image, // Import Image component
-  ActivityIndicator, // For loading indicator
-  Alert, // For error alerts
+  ActivityIndicator,
+  Alert,
+  Image,
+  Modal, // Import Modal from react-native
 } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import ImageViewer from 'react-native-image-zoom-viewer'; // Import ImageViewer
 
 const whatsAppGreen = '#075E54';
-const { width } = Dimensions.get('window');
+const { width, height } = Dimensions.get('window');
 
 const HandwrittenImageViewerScreen = () => {
   const { handwrittenImageUrls: urlsParam, title } = useLocalSearchParams();
@@ -25,14 +28,17 @@ const HandwrittenImageViewerScreen = () => {
   const [imageUrls, setImageUrls] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
+  const [modalVisible, setModalVisible] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
     if (urlsParam) {
       try {
-        // Parse the stringified array back into an array
         const parsedUrls = JSON.parse(urlsParam);
         if (Array.isArray(parsedUrls) && parsedUrls.length > 0) {
-          setImageUrls(parsedUrls);
+          // Format URLs for react-native-image-zoom-viewer
+          const formattedUrls = parsedUrls.map(url => ({ url }));
+          setImageUrls(formattedUrls);
           setLoading(false);
         } else {
           Alert.alert('Error', 'No image URLs found for this chapter.');
@@ -51,6 +57,11 @@ const HandwrittenImageViewerScreen = () => {
       setLoading(false);
     }
   }, [urlsParam]);
+
+  const openImageViewer = (index) => {
+    setCurrentImageIndex(index);
+    setModalVisible(true);
+  };
 
   if (loading) {
     return (
@@ -101,15 +112,41 @@ const HandwrittenImageViewerScreen = () => {
       </View>
 
       <ScrollView contentContainerStyle={styles.scrollViewContent}>
-        {imageUrls.map((url, index) => (
-          <Image
+        {imageUrls.map((image, index) => (
+          <TouchableOpacity
             key={index}
-            source={{ uri: url }}
-            style={styles.image}
-            resizeMode="contain" // Ensures the whole image is visible within the bounds
-          />
+            onPress={() => openImageViewer(index)}
+            style={styles.imageTouchable}
+          >
+            <Image
+              source={{ uri: image.url }}
+              style={styles.imageThumbnail}
+              resizeMode="contain"
+            />
+          </TouchableOpacity>
         ))}
       </ScrollView>
+
+      {/* MODAL WRAPPER FOR IMAGEVIEWER */}
+      <Modal visible={modalVisible} transparent={true} onRequestClose={() => setModalVisible(false)}>
+        <ImageViewer
+          imageUrls={imageUrls}
+          index={currentImageIndex}
+          onCancel={() => setModalVisible(false)}
+          enableSwipeDown={true}
+          renderHeader={() => (
+            <View style={styles.imageViewerHeader}>
+              <TouchableOpacity onPress={() => setModalVisible(false)} style={styles.backButton}>
+                <MaterialCommunityIcons name="close" size={24} color="white" />
+              </TouchableOpacity>
+              <Text style={styles.imageViewerTitle}>
+                {title || 'Handwritten Notes'} ({currentImageIndex + 1}/{imageUrls.length})
+              </Text>
+            </View>
+          )}
+          // You can customize more props like renderIndicator, etc.
+        />
+      </Modal>
     </SafeAreaView>
   );
 };
@@ -136,14 +173,16 @@ const styles = StyleSheet.create({
   },
   scrollViewContent: {
     flexGrow: 1,
-    alignItems: 'center', // Center images horizontally
+    alignItems: 'center',
     paddingVertical: 10,
   },
-  image: {
-    width: width, // Image takes full width
-    height: width * 1.414, // Assuming a common A4-like aspect ratio (approx. 1:1.414). Adjust as needed.
-    marginBottom: 10, // Space between images
-    backgroundColor: '#f0f0f0', // Placeholder background while loading
+  imageTouchable: {
+    marginBottom: 10, // Space between image thumbnails
+  },
+  imageThumbnail: {
+    width: width,
+    height: width * 1.414, // Maintain aspect ratio for thumbnails
+    backgroundColor: '#f0f0f0',
   },
   loadingContainer: {
     flex: 1,
@@ -160,6 +199,25 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: 'red',
     textAlign: 'center',
+  },
+  imageViewerHeader: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    height: 60,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    zIndex: 1,
+  },
+  imageViewerTitle: {
+    color: 'white',
+    fontSize: 18,
+    fontWeight: '600',
+    marginLeft: 10,
+    flex: 1,
   },
 });
 
