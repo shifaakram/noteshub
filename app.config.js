@@ -1,4 +1,3 @@
-// app.config.js
 import 'dotenv/config'; // THIS MUST BE THE FIRST LINE OF THE FILE
 
 // --- ADD THIS LINE FOR DEBUGGING ---

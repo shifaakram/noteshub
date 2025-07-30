@@ -88,6 +88,6 @@ app.post('/chat', async (req, res) => {
 
 
 app.listen(PORT, () => {
-  console.log(`ComputerBackend server running on http://192.168.100.12:${PORT}`);
-  console.log(`Chapter content API available at http://192.168.100.12:${PORT}/chapter-content/:unit`);
+  console.log(`ComputerBackend server running on http:// 192.168.0.103:${PORT}`);
+  console.log(`Chapter content API available at http:// 192.168.0.103:${PORT}/chapter-content/:unit`);
 });

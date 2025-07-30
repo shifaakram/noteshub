@@ -21,7 +21,7 @@ import Constants from 'expo-constants';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const GEMINI_API_KEY = Constants.expoConfig?.extra?.geminiApiKey;
-const BASE_BACKEND_URL = 'http://192.168.100.12:3000'; // Still defined but no longer used in this file for chat
+const BASE_BACKEND_URL = 'http://192.168.0.103:3000'; // Still defined but no longer used in this file for chat
 
 let geminiModel = null;
 if (GEMINI_API_KEY) {

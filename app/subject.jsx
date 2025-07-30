@@ -27,11 +27,7 @@ export default function SubjectSelection() {
   const router = useRouter();
 
   const handleSubjectSelection = (subjectName) => {
-    if (subjectName === "Mathematics") {
-      router.push("/math");
-    } else if (subjectName === "Urdu") {
-      router.push("/urdu");
-    } else if (subjectName === "Computer") {
+    if (subjectName === "Computer") {
       router.push("/computer");
     } else {
       router.push("/ComingSoon");
